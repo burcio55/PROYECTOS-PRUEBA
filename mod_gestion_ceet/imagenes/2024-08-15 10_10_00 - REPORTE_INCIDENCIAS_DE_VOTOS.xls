@@ -1,0 +1,539 @@
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <thead>
+  	<caption><b>REPORTE DETALLADO DE TRABAJADORES QUE PRESENTAN UNA INCIDENCIA EN SU DERECHO AL VOTO PARA LAS ELECCIONES PRESIDENCIALES 2024</b></caption>
+      <tr>
+        <td colspan="6"></td>
+    </tr>
+        <tr>
+        <td colspan="6"><p style="text-align: center;"><B>FECHA:</B> 14/06/24 - <B> HORA:</B> 02:25 pm</p></td>
+    </tr>
+    <!-- <tr>
+        <td colspan="
+Notice: Undefined variable: valor in /var/www/Elecciones2024/exel_incidencias.php on line 48
+"><B>HORA:</B> 02:25 pm</td>
+    </tr> -->
+    <!-- <tr>
+        <td colspan="
+Notice: Undefined variable: valor in /var/www/Elecciones2024/exel_incidencias.php on line 51
+"></td>
+    </tr> -->
+    <tr>
+                <th style='text-align: justify'>NOMBRE(S) y APELLIDO(S)</th>
+        <th style='text-align: justify'>NRO DE CÉDULA DE IDENTIDAD</th>
+        <th style='text-align: justify'>INCIDENCIAS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+            <td>GARY NULL, BECERRA NULL</td>
+            <td style="text-align: justify">17141125</td>
+            <td>SERIAL ANULADO (2)</td>
+            </tr><tr>
+            <td>LUIS ABRAHAM, SOTO REVERON</td>
+            <td style="text-align: justify">26645633</td>
+            <td>INHABILITADO POLÍTICO (7)</td>
+            </tr><tr>
+            <td>JOINETH YULIETH, TORRES SUAREZ</td>
+            <td style="text-align: justify">32100143</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>MOISES GABRIEL, MORENO  MENDEZ</td>
+            <td style="text-align: justify">30966948</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>IVAN NULL, DAVILA NULL</td>
+            <td style="text-align: justify">16368936</td>
+            <td>INHABILITADO POLÍTICO (7)</td>
+            </tr><tr>
+            <td>CESAR ALEJANDRO, GONZALEZ PEREZ</td>
+            <td style="text-align: justify">17976385</td>
+            <td>INHABILITADO POLÍTICO (7)</td>
+            </tr><tr>
+            <td>DIANA CAROLINA, NUÑEZ CAROLINA</td>
+            <td style="text-align: justify">30831687</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>VIRGINIA VICTORIA, SANCHEZ VALLEJO</td>
+            <td style="text-align: justify">30580655</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>WILLIAM ALEXIS, MEDINA MARQUETT</td>
+            <td style="text-align: justify">30917911</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>KERYMAR , FERNANDEZ GELVEZ</td>
+            <td style="text-align: justify">31020706</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>JOHANA ESTHER, PULIDO BOROTOCHE</td>
+            <td style="text-align: justify">1889438</td>
+            <td>FALLECIDO (3)</td>
+            </tr><tr>
+            <td>CHRISMAR ETHNNAY LEINNAD, BERRIOS ESPINOZA</td>
+            <td style="text-align: justify">30157958</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>EDINSON  ALEXANDER, FLOREZ TORRES</td>
+            <td style="text-align: justify">31170730</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>SALIMAY MEJIAS, RONMY JOSE</td>
+            <td style="text-align: justify">13406007</td>
+            <td>INHABILITADO POLÍTICO (7)</td>
+            </tr><tr>
+            <td>JEAN CARLOS, RIVERA CALLES</td>
+            <td style="text-align: justify">1768692</td>
+            <td>FALLECIDO (3)</td>
+            </tr><tr>
+            <td>JESSE JAMES, MENDOZA VICTORIA</td>
+            <td style="text-align: justify">12765778</td>
+            <td>INHABILITADO POLÍTICO (7)</td>
+            </tr><tr>
+            <td>MILAGROS LOURDES, SANOJA ARREAZA</td>
+            <td style="text-align: justify">15483093</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>LISKARY ROSBELLY, FIGUERA OCHOA</td>
+            <td style="text-align: justify">29584928</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>HERMINIA , ANDRADE DA SILVA</td>
+            <td style="text-align: justify">753983</td>
+            <td>FALLECIDO (3)</td>
+            </tr><tr>
+            <td>LUISSANA DANIELA, LINARES GONZALEZ</td>
+            <td style="text-align: justify">30600501</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>MARIANGELA DEL CARMEN, CONTRERAS LA TORRE</td>
+            <td style="text-align: justify">29897266</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>DREYDIS IRENE, BERROTERAN LUGO</td>
+            <td style="text-align: justify">29651627</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>JOSE VALENTIN, CAMPOS LARES</td>
+            <td style="text-align: justify">30227404</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>ALGUINIELYS GLAIDISMAR, VALE PEREZ</td>
+            <td style="text-align: justify">28654933</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>NELSON  DE JESUS, ALVARADO MEDINA</td>
+            <td style="text-align: justify">30739291</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>RONY ALEXANDER, CAMARGO  GARCIA</td>
+            <td style="text-align: justify">15844503</td>
+            <td>INHABILITADO POLÍTICO (7)</td>
+            </tr><tr>
+            <td>CARLENIS YODIANY, LEON  CARDENAS</td>
+            <td style="text-align: justify">23733527</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>JEYDES ANGELIS, RIVERO BARRETO</td>
+            <td style="text-align: justify">30646984</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>RAFAEL ALFONSO, ESPINOZA RONDON</td>
+            <td style="text-align: justify">20204007</td>
+            <td>INHABILITADO POLÍTICO (7)</td>
+            </tr><tr>
+            <td>MARIA ELENA, AGUILA CRUZ</td>
+            <td style="text-align: justify">84606828</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>EUCLIDES JOSE, OLLER </td>
+            <td style="text-align: justify">2981011</td>
+            <td>FALLECIDO (3)</td>
+            </tr><tr>
+            <td>DAYERLING ASTRID, UTRIA VILLEGAS</td>
+            <td style="text-align: justify">29725249</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>MARIA  DE LOS ANGELES, GIL  HIDALGO</td>
+            <td style="text-align: justify">29694535</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>JOSMAGLI ANYISMAR, BLANCO DUQUE</td>
+            <td style="text-align: justify">30115079</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>ANDRES ALBERTO, ROJAS </td>
+            <td style="text-align: justify">6037839</td>
+            <td>INHABILITADO POLÍTICO (7)</td>
+            </tr><tr>
+            <td>YORGELIS MARIA, SANCHEZ LUQUE</td>
+            <td style="text-align: justify">28125179</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>FAVIANA ANNABEL, CUMARE GARCIA</td>
+            <td style="text-align: justify">31749903</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>CRISKARLYS DEL CARMEN, PEINADO MORILLO</td>
+            <td style="text-align: justify">26971921</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>SHEILA CAROLINA, LUNA GONZALEZ</td>
+            <td style="text-align: justify">27365822</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>MARIA ALEJANDRA, FLORES ROMAN</td>
+            <td style="text-align: justify">32710958</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>MARIELYS  VANESSA, ARIAS COBOS</td>
+            <td style="text-align: justify">25409785</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>ROLANDO  , MARIN RUBY</td>
+            <td style="text-align: justify">81983261</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>YEIMY GREISMAR, ARIAS BATTA</td>
+            <td style="text-align: justify">23949138</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>EDGARDO JOSE, GUEVARA GUZMAN</td>
+            <td style="text-align: justify">24205267</td>
+            <td>INHABILITADO POLÍTICO (7)</td>
+            </tr><tr>
+            <td>FANNY ALEJANDRA, RAMIREZ ROJAS</td>
+            <td style="text-align: justify">23717449</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>SORIMAR COROMOTO, VENEGAS </td>
+            <td style="text-align: justify">9669227</td>
+            <td>INHABILITADO POLÍTICO (7)</td>
+            </tr><tr>
+            <td>CARLOS VALENTINO, AGUIAR PEREZ</td>
+            <td style="text-align: justify">30468162</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>ROBERTO DANIEL, CONTRERAS BETACOURT</td>
+            <td style="text-align: justify">30699868</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>ARLENIS ROSALIA, CORDERO DIAZ</td>
+            <td style="text-align: justify">31271621</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>JANETH DEL CARMEN, VALERO BRICENO</td>
+            <td style="text-align: justify">12442016</td>
+            <td>FALLECIDO (3)</td>
+            </tr><tr>
+            <td>ARDENIS ERNAIS, MOGOLLON CUBILLAN</td>
+            <td style="text-align: justify">12984361</td>
+            <td>SERIAL ANULADO (2)</td>
+            </tr><tr>
+            <td>ARMANDO JOSE, AMARAL HEREDIA</td>
+            <td style="text-align: justify">21726329</td>
+            <td>INHABILITADO POLÍTICO (7)</td>
+            </tr><tr>
+            <td>CLAUDIO MIGUEL, PENA ARAQUE</td>
+            <td style="text-align: justify">24656486</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>CATHERINE ROXANA, POCATERRA MESA</td>
+            <td style="text-align: justify">28115209</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>ANGEL  EDUARDO, SOUBLETT ALVARADO</td>
+            <td style="text-align: justify">6324339</td>
+            <td>INHABILITADO POLÍTICO (7)</td>
+            </tr><tr>
+            <td>MILESKY DEL CARMEN, MACHADO FERRERA</td>
+            <td style="text-align: justify">28321681</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>ARIANA CAROLINA, VILA MIJARES</td>
+            <td style="text-align: justify">28718245</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>ABRAHAMYELIMAR NULL, VALLENILLA HERNANDEZ</td>
+            <td style="text-align: justify">33305494</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>RAMSES ALEJANDRO, PRIETO ORTIZ</td>
+            <td style="text-align: justify">30727541</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>GUSTAVO ALFONSO, ROSAL MUÃ‘OZ</td>
+            <td style="text-align: justify">28611948</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>SUGEY PATRICIA, LOPEZ BERRIO</td>
+            <td style="text-align: justify">82196084</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>JHONNY LUIS, ZAMBRANO TRINITARIO</td>
+            <td style="text-align: justify">30453458</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>FABIANA JOSE, FARRERA GUAIQUIRIMA</td>
+            <td style="text-align: justify">25812259</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>ROGER ADRIAN, RODRIGUEZ RATTIA</td>
+            <td style="text-align: justify">30055291</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>MARIA  DE LOS ANGELES, SALAS GARCIA</td>
+            <td style="text-align: justify">30479340</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>JOSE GREGORIO, SILANO RIVAS</td>
+            <td style="text-align: justify">10894491</td>
+            <td>INHABILITADO POLÍTICO (7)</td>
+            </tr><tr>
+            <td>AHSLEY DUBRASKA, RODRIGUEZ BRACHO</td>
+            <td style="text-align: justify">32121229</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>BARBARA MAIKELY, PERDOMO  RAGA</td>
+            <td style="text-align: justify">27694220</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>CONSTANTINO , ALCALA SALAZAR</td>
+            <td style="text-align: justify">14013656</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>ERLIVICT MARIVICT, SILVA RAMIREZ</td>
+            <td style="text-align: justify">27416653</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>ANDREA ALEJANDRA, ROMERO NAVARRETE</td>
+            <td style="text-align: justify">81434499</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>GABRIELA ESTEFANIA, CANELON MAIZO</td>
+            <td style="text-align: justify">30291244</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>JUAN CARLOS, PALACIOS MEDINA</td>
+            <td style="text-align: justify">30473379</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>ALLAN HECTOR, QUERO YANEZ</td>
+            <td style="text-align: justify">28424668</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>MARIANGELA ALEJANDRA, SILVA RAMIREZ</td>
+            <td style="text-align: justify">29993751</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>AMERIAN JHONAIBERT, VALENTE GONZALEZ</td>
+            <td style="text-align: justify">28058919</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>JHON ANTHOY, GRANADO NUÑEZ</td>
+            <td style="text-align: justify">31901468</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>JOSE DAVID, DUGARTE ZAMBRANO</td>
+            <td style="text-align: justify">28318588</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>LUISANA INES, MARIN RODRIGUEZ</td>
+            <td style="text-align: justify">28536299</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>JEFERSON JOSE, MENDOZA GUEVARA</td>
+            <td style="text-align: justify">28404144</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>GLENYERBERTH DAVID, GARCIA TELLEZ</td>
+            <td style="text-align: justify">29869662</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>MIGUEL EDUARDO, SALAS OLIVERO</td>
+            <td style="text-align: justify">29990551</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>REGINO ARTURO, PEREZ CARRILLO</td>
+            <td style="text-align: justify">29768273</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>ORIANA LUZ, PALMERA NAVARRO</td>
+            <td style="text-align: justify">29869661</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>YERLIN PAOLA, NAVARRO ZERPA</td>
+            <td style="text-align: justify">30482630</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>LIURCA AIDALETH, GUACARE SALAZAR</td>
+            <td style="text-align: justify">30453592</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>DAVID RAFAEL, GARCIA VALDERRAMA</td>
+            <td style="text-align: justify">30277524</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>YELVINSON LEONEL, RAMIREZ TORRES</td>
+            <td style="text-align: justify">30243158</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>PEDRO JOSE, GONZALEZ YSTURIS</td>
+            <td style="text-align: justify">29602380</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>JORGELIS , ORTUÑO ESTEPHANI</td>
+            <td style="text-align: justify">29553661</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>BRAYAN , MATA CABELLO</td>
+            <td style="text-align: justify">30662696</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>SARAY ADRIANA, MONTOYA SARAY</td>
+            <td style="text-align: justify">31886145</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>RICARDO JESUS, ALVARADO MENENDEZ</td>
+            <td style="text-align: justify">29617992</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>PAOLA NAYARI, MARTINEZ MORILLO</td>
+            <td style="text-align: justify">29638226</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>ALVANY LUCIA, TORRES MARCANO</td>
+            <td style="text-align: justify">32396993</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>HARRY ENRIQUE, FROGET HERNANDEZ</td>
+            <td style="text-align: justify">32264688</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>YVHANNA VALENTINA, FORNES HIDALGO</td>
+            <td style="text-align: justify">32732487</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>DELIZ DAIRY, OVALLES CUARTA</td>
+            <td style="text-align: justify">29698506</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>RAYXIMAR YRNEH DE LA CARIDAD, GUZMAN LUNA</td>
+            <td style="text-align: justify">30235001</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>KAMILA DEL VALLE, APURE CANONICO</td>
+            <td style="text-align: justify">31101146</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>DOUGLAS DANIEL, DIAZ BARCENAS</td>
+            <td style="text-align: justify">29686146</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>JENNY KARIANY, CAMACHO BALDES</td>
+            <td style="text-align: justify">24260869</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>KENYA CHIQUINQUIRA, ESCOBAR MENDOZA</td>
+            <td style="text-align: justify">30513910</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>Nieves Alexandra, Rodriguez Luces</td>
+            <td style="text-align: justify">31317574</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>LORENY DANIELA, BRAVO SAEZ</td>
+            <td style="text-align: justify">28660366</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>RODRIGO JOSE, LORETTO SILVA</td>
+            <td style="text-align: justify">31191659</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>ZAHIR ELEIDY, RAMIREZ CRESPO</td>
+            <td style="text-align: justify">30356740</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>LEIDIMAR ALAEJANDRA, MALAVE DIAZ</td>
+            <td style="text-align: justify">30138215</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>MIRKA MARIA, NARANJO VEGAS</td>
+            <td style="text-align: justify">30234734</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>ANGIE LUCERO, BAUTISTA COVA</td>
+            <td style="text-align: justify">30464434</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>CARLOS DANIEL, GONZALEZ DURAN</td>
+            <td style="text-align: justify">31206100</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>LUISANA NAZARETH, RINCON COLMENARES</td>
+            <td style="text-align: justify">30297250</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>ROQNAL ALBERTO, BLANCO ALVAREZ</td>
+            <td style="text-align: justify">30594231</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>ROQNAL ALBERTO, BLANCO ALVAREZ</td>
+            <td style="text-align: justify">30594213</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>YESENIS JUANIBEL, CARMONA GUAINA</td>
+            <td style="text-align: justify">28332121</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>NAILE NULL, FIGUERA NULL</td>
+            <td style="text-align: justify">36626581</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>NICOL ISBEL, SANCHEZ CASTRO</td>
+            <td style="text-align: justify">29617786</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>CRISHANYELI DANIELA, MONTEROLA PEREZ</td>
+            <td style="text-align: justify">29922001</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>Maria Jose, Brazon Varela</td>
+            <td style="text-align: justify">30579896</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>Douglaynis Paola, Landaeta Rodriguez</td>
+            <td style="text-align: justify">30699726</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>MANUEL ALEJANDRO, DIAZ UZCATEGUI</td>
+            <td style="text-align: justify">32353897</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>JHONDEIVIS ENRIQUE, SALAZAR CASTILLO</td>
+            <td style="text-align: justify">32187465</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>JONSER IGNACIO, LOPEZ HERRERA</td>
+            <td style="text-align: justify">24992471</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>Jhonder Johan, Urbina Guerra</td>
+            <td style="text-align: justify">31089513</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>EDUARDO NULL, GONZALEZ NULL</td>
+            <td style="text-align: justify">20412869</td>
+            <td>INHABILITADO POLÍTICO (7)</td>
+            </tr><tr>
+            <td>LUISANA BEATRIZ, REINOSA DIAZ</td>
+            <td style="text-align: justify">30872027</td>
+            <td>NO SE ENCUENTRA INSCRITO EN EL REGISTRO ELECTORAL</td>
+            </tr><tr>
+            <td>VICMARY DEL CARMEN, RODRIGUEZ LUCES</td>
+            <td style="text-align: justify">27871961</td>
+            <td>OBJECIÓN (15)</td>
+            </tr>  </tbody>
+</table>

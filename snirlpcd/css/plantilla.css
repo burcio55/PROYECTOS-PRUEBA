@@ -1,0 +1,76 @@
+body {
+	/* ESTILO PARA EL CUERPO DE LA PAGINA*/
+	margin:0;
+	padding:0;
+	text-align:center;
+	background-color: white;
+}
+#content {
+	/* ESTILO DEL DIV QUE CONTIENE TODAS LAS DIVISIONES DE LA PLANTILLA*/
+	padding:0;
+	margin:0;
+	clear:both;
+	text-align:left;
+	margin:auto;
+	background-color:#ff0;
+	background: transparent;
+	width:1000px;
+	/*height:800;*/
+	border:solid 1px;
+	border-color: #f3f3f3; 
+}
+#cabecera_superior {
+	/* ESTILO DEL DIV CABECERA, EN DONDE VA EL BANNER SUPERIOR*/
+	width: 1000px;
+	height:60px;
+	/*background-color:   #00a2a4; */
+	background-image: url(../imagenes/cabecera_superior.png);
+	background-repeat:no-repeat;
+	z-index: 1;
+}
+#cabecera_inferior {
+	/* ESTILO DEL DIV CABECERA, EN DONDE VA EL BANNER INFERIOR */
+	width: 1000px;
+	height:50px;
+	/*background-color:   #00a2a4; */
+	background-image: url(../imagenes/cabecera_inferior.png);  
+	background-repeat: repeat-x;
+	z-index: 1;
+
+}
+#contenido_menu {
+	/* DIV CON ESPECIO RESERVADO PARA EL MENU*/
+	clear:both;
+	width:1000px;
+	height:31px;
+	/*background-color:#9c3021; */
+	z-index: 1;
+}
+#contenido {
+	/* ESPACIO RESERVADO PARA EL CONTENIDO DE LA PAGINA*/
+	/*overflow:auto;  */
+	width:1000px;
+	/*height:636px;*/
+	background: #FCFCFC;
+	z-index: 1;
+}
+#pie table { 
+	/* ESTILO DEL DIV PIE DE PAGINA*/ 
+	width:1000px;
+	height:40px;
+	font-family: Arial, Helvetica, sans-serif;
+	/*font-weight: bold;*/
+	font-size: 10px;
+	color:  #000;
+	text-align:center;
+	text-decoration: none;
+	/*background-color:#9c3021; */
+	background-image: url(../imagenes/reposo.png);
+	background-repeat: repeat;
+	z-index: 1;
+}
+#separador_inferior {
+	/* DAR UN ESPACIO INFERIOR*/
+	height:10px;
+	z-index: 1;
+}

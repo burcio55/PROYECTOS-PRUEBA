@@ -1,0 +1,235 @@
+<?php
+    include("header.php");
+
+    include("../include/BD.php");
+	$conn = Conexion::ConexionBD();
+
+	if((isset($_GET["cedula"]))){
+
+        $id = $_GET["cedula"];
+
+        $consulta = ("SELECT * FROM public.personas WHERE cedula= '".$id."'");
+        $row = pg_query($conn, $consulta);
+        $persona = pg_fetch_array($row);
+    }
+?>
+<div class="col-md-12">
+    <!--<div class="card card-primary"> Original-->
+    <div class="card">
+        <!-- card-header alert-primary  text-white bg-primary -->
+        <div class="card-header text-center alert-primary">
+            <h3 class="card-title">DISCAPACIDAD</h3>
+        </div>
+        
+        <!--<div class="card-body">-->
+        <form action="../../../agencia_empleo_VIEJO/mod_agencia_empleo/1_5agen_trab_educacion.php">
+            <div class="card-body">
+                <!--inicio card-body Información de Experiencia Laboral-->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <center>
+                        <div class="form-group">
+                            <div>
+                                <label class="text-secondary">Posee discapacidad?</label><span style="color: red;"> *</span>
+                                <input type="radio" id="radioPrimary13" onclick="javascript:seleccion()" name="r7" >
+                                <label for="radioPrimary13" class="text-secondary">SI
+                                </label>
+                                <input type="radio" id="radioPrimary14" onclick="javascript:deselecion()" name="r7" checked="">
+                                <label for="radioPrimary14" class="text-secondary">NO
+                                </label>
+                            </div>
+                            <script>
+                                function seleccion(){
+                                    document.getElementById("numero_certificado").disabled=false;
+                                    document.getElementById("discapacidad_general").disabled=false;
+                                    document.getElementById("discapacidad_especifica").disabled=false;
+                                    document.getElementById("afectacion").disabled=false;
+                                    document.getElementById("localizacion").disabled=false;
+                                    document.getElementById("origen_discapacidad").disabled=false;
+                                    document.getElementById("nivel_discapacidad").disabled=false;
+                                    document.getElementById("grado_discapacidad").disabled=false;
+                                }
+
+                                function deselecion(){
+                                    document.getElementById("numero_certificado").disabled=true;
+                                    document.getElementById("discapacidad_general").disabled=true;
+                                    document.getElementById("discapacidad_especifica").disabled=true;
+                                    document.getElementById("afectacion").disabled=true;
+                                    document.getElementById("localizacion").disabled=true;
+                                    document.getElementById("origen_discapacidad").disabled=true;
+                                    document.getElementById("nivel_discapacidad").disabled=true;
+                                    document.getElementById("grado_discapacidad").disabled=true;
+                                }
+                            </script>
+                        </div>
+                        </center>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label class="text-secondary">Número de Certificado</label>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="icon-barcode"></i></span>
+                                    </div>
+                                    <input type="text" class="form-control" name="numero_certificado" placeholder="Certificado" id="numero_certificado" disabled>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label class="text-secondary">Discapacidad General</label>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="icon-accessibility"></i></span>
+                                    </div>
+                                    <select type="text" class="form-control" name="discapacidad_general" placeholder="Visual" id="discapacidad_general" disabled>
+                                        <option value="">Seleccione</option>
+                                        <?$sql = "SELECT * FROM public.discapacidad where status = 'A';";
+                                        $discapacidad_general = pg_query($conn,$sql);
+                                        $discapacidad_general = pg_fetch_all($discapacidad_general);
+                                        foreach($discapacidad_general as $u) { ?>
+                                            <option value="<? echo $u['id'];?>"><? echo $u['nombre'];?></option>
+                                        <?}?>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label class="text-secondary">Discapacidad Específica</label>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="icon-low-vision"></i></span>
+                                    </div>
+                                    <input type="text" class="form-control" name="discapacidad_especifica" placeholder="Ceguera Total" id="discapacidad_especifica" disabled>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <!-- radio -->
+                            <div class="form-group">
+                                <label class="text-secondary">Afectación</label>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="icon-wheelchair-alt"></i></span>
+                                    </div>
+                                    <input type="text" class="form-control" name="afectacion" placeholder="Por ausencia de la función visual" id="afectacion" disabled>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label class="text-secondary">Localización</label>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="icon-location"></i></span>
+                                    </div>
+                                    <input type="text" class="form-control" name="localizacion" placeholder="Ambos ojos" id="localizacion" disabled>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label class="text-secondary">Origen de Discapacidad</label>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class=""></i></span>
+                                    </div>
+                                    <select type="text" class="form-control" name="origen_discapacidad" placeholder="Genética" id="origen_discapacidad" disabled>
+                                    <option value="">Seleccione</option>
+                                        <?$sql = "SELECT * FROM public.discapacidad_origen where status = 'A';";
+                                        $discapacidad_origen = pg_query($conn,$sql);
+                                        $discapacidad_origen = pg_fetch_all($discapacidad_origen);
+                                        foreach($discapacidad_origen as $u) { ?>
+                                            <option value="<? echo $u['id'];?>"><? echo $u['nombre'];?></option>
+                                        <?}?>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label class="text-secondary">Nivel de Dependencia</label>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="icon-blind"></i></span>
+                                    </div>
+                                    <input type="text" class="form-control" name="nivel_discapacidad" placeholder="Poca dependencia" id="nivel_discapacidad" disabled>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label class="text-secondary">Grado de Discapacidad</label>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="icon-cd"></i></span>
+                                    </div>
+                                    <input type="text" class="form-control" name="grado_discapacidad" placeholder="Severo" id="grado_discapacidad" disabled>
+                                </div>
+                            </div>
+                        </div>	
+                        <div class="col-sm-12">
+                            <label class="text-secondary">Observaciones</label>
+                            <textarea class="form-control" name="Observaciones" id="Observaciones" placeholder="Observaciones" ></textarea>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <div align="right">
+                                <label for="situacion_actual" class="text-secondary">¿Es beneficiario de la Misión José Gregorio Hernández?</label><span style="color: red;"> *</span>
+                            </div>
+                        </div>
+                    </div>
+                        <div align="left" class="col-md-6">
+                            <div align="left"  class="icheck-gray d-inline">
+                                <input type="radio" id="radioPrimary7" name="r4" checked="">
+                                <label for="radioPrimary7" class="text-secondary">SI
+                                </label>
+                            </div>
+                        <div align="left"  class="icheck-gray d-inline">
+                            <input type="radio" id="radioPrimary8" name="r4">
+                            <label for="radioPrimary8" class="text-secondary">NO
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" >
+                    <div class="col-md-3"> </div>
+                        <div class="col-md-3">
+                            <a href="educacion.php?cedula=<? echo $id;?>" id="redireccion">
+                                <input class="btn btn-outline-primary" onclick="javascript:comprobar()" value="Continuar">
+                            </a>  
+                        </div>
+                        <div class="col-md-2">
+                            <a href="datos_personales.php?cedula=<? echo $id;?>">
+                                <input class="btn btn-outline-danger" value="Regresar">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script>
+                function comprobar(){
+                    var discapacidad = document.getElementById("r7").Value;
+                    var mision = document.getElementById("r4").Value;
+
+                    var mensaje = window.alert("Debe Rellenar Todos los Campos obligatorios (*)");
+
+                    if(discapacidad == "" || mision == ""){
+                        mensaje;
+                    }
+                }
+            </script>
+        </form>
+        <!----</div>-->
+    </div>
+    <!-- /.card-body -->
+</div>
+<?php
+    include("footer.php");
+?>

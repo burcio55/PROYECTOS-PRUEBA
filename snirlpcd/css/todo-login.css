@@ -1,0 +1,238 @@
+body{
+    height: 150vh;
+}
+/* Color del Fondo */
+.bg-color-white{
+    background-color: white;
+}
+/* NavBar */
+.img-logo-content{
+    position: relative;
+    z-index: 999999999999999;
+    background-color: #fff;
+}
+.w-h-100{
+    width: 50%;
+    height: auto;
+}
+.mg-opciones{
+    float: left;
+}
+.mg-nav{
+    font-size: 14px;
+    float: left;
+    margin-left: 30%;
+}
+.submenu{
+    display: none;
+    margin-top: -5px;
+}
+.mg-55-100{
+    margin: 55px 0 0 100px;
+}
+.fgray{
+    color: gray;
+}
+.eye{
+    width: 90%;
+    margin: 10px 0;
+    position: relative;
+}
+.icon-eye{
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: -42px;
+    margin-bottom: 12px;
+    margin-left: 85%;
+    display: flex;
+    position: relative;
+}
+.img-login{
+    width: 30%;
+    margin: -10px 0 10px 0;
+}
+.text-d{
+    max-width: 500px;
+    margin-top: 60px;
+    margin-right: -150px;
+    margin-bottom: 200px;
+}
+.validaciones-mg{
+    margin: -200px 0 0 -100px;
+}
+.ul-seguridad{
+    background-color: #fff;
+    border-radius: 20px;
+    width: 500px;
+    height: auto;
+    padding: 12px 10px 5px 25px;
+    margin-left: 250px;
+}
+.contenedor_login-register{
+    margin-top: -70px;
+    margin-left: -100px;
+}
+.caja_trasera{
+    width: 110%;
+    height: 66vh;
+}
+@media (max-width: 1060px) {
+    .w-h-100{
+        width: 68%;
+        height: auto;
+    }
+    .mg-nav{
+        margin-left: 25%;
+    }
+    .contenedor_login-register{
+        margin-top: -70px;
+        margin-left: 0;
+    }
+    .caja_trasera{
+        width: 80%;
+        margin-left: 20%;
+    }
+    .validaciones-mg{
+        margin: -200px 0 0 -100px;
+    }
+    .ul-seguridad{
+        background-color: #fff;
+        border-radius: 20px;
+        width: 370px;
+        height: auto;
+        padding: 12px 10px 5px 25px;
+        margin-left: 35%;
+    }
+}
+@media (max-width: 960px) {
+    nav{
+        height: auto;
+        z-index: 99999999999999999999999999999999;
+    }
+    .mg-nav{
+        margin-left: 45%;
+    }
+    /* .w-h-100{
+        margin-left: 30%;
+        margin-top: -40px;
+    }
+    .mg-nav{
+        margin-left: 15%;
+        margin-top: 5%;
+    } */
+    /* .submenu{
+        width: 200px;
+        max-height: 200px;
+    }
+    .li-1{
+        float: left;
+        margin-top: 5px;
+    }
+    .li-2{
+        margin-top: -37px;
+        margin-left: 120px;
+    }
+    .li-3{
+        margin-top: -38px;
+        margin-left: 230px;
+    }
+    .li-4{
+        margin-top: -38px;
+        margin-left: 370px;
+    }
+    .li-5{
+        margin-top: -37px;
+        margin-left: 450px;
+    } */
+}
+@media (max-width: 850px) {
+    body{
+        height: 200vh;
+    }
+    /* .w-h-100{
+        margin-left: 25%;
+    }
+    .mg-nav{
+        margin-left: 10%;
+        margin-top: 7.5%;
+    } */
+    .text-d{
+        max-width: 300px;
+        font-size: 22px;
+        margin-top: -210px;
+        margin-right: -150px;
+        margin-bottom: 0;
+    }
+    .ul-seguridad{
+        width: 300px;
+        font-size: 14px;
+        padding: 12px 0 5px 5px;
+    }
+    .contenedor_login-register{
+        margin-top: -170px;
+        margin-left: 17%;
+    }
+    .img-login{
+        width: 30%;
+        margin: -75px 0 0 0;
+    }
+}
+@media (max-width: 590px) {
+    nav{
+        width: 115vw;
+    }
+    /* .w-h-100{
+        margin-left: 7.5%;
+    }
+    .mg-nav{
+        margin-left: 2.5%;
+        margin-top: 10%;
+    }
+    .li-2{
+        margin-left: 115px;
+    }
+    .li-3{
+        margin-left: 220px;
+    }
+    .li-4{
+        margin-left: 350px;
+    }
+    .li-5{
+        margin-left: 420px;
+    } */
+}
+@media (max-width: 520px) {
+    nav{
+        width: 135vw;
+    }
+    /* .w-h-100{
+        margin-left: 2.5%;
+    }
+    .mg-nav{
+        margin-left: .25%;
+        margin-top: 10%;
+    }
+    .li-2{
+        margin-left: 105px;
+        z-index: 3000000000;
+    }
+    .li-3{
+        margin-left: 200px;
+        z-index: 3000000000;
+    }
+    .li-4{
+        margin-left: 325px;
+        z-index: 3000000000;
+    }
+    .li-5{
+        margin-left: 395px;
+        z-index: 3000000000;
+    } */
+    .text-d{
+        max-width: 280px;
+        font-size: 18px;
+    }
+    .contenedor_login-register{
+        margin-top: -200px;
+    }
+}

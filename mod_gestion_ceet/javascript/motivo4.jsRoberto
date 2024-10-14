@@ -1,0 +1,32 @@
+function inicializarPagina() {
+    //alert('Hola Mundo');
+    $.ajax
+    ({
+        url: 'accion_motivo4.php?accion=1',
+        type: 'GET',
+        success: function(resp) {
+            $('#tabla_motivo').html(resp);
+        }
+    });
+};
+function accion_motivo(motivo)
+{
+    //alert('Entro');
+    $.ajax
+    ({
+        url: 'accion_motivo.php?motivo='+motivo+'&accion=2',
+        type: 'GET',
+        success: function(resp) {
+            let v0 =  resp.split(" / ")[0];
+            let v1 =  resp.split(" / ")[1];
+            if(v0 == 1){
+                alert(v1);
+                window.location.reload();
+            }else{
+                alert(v1);
+                location.reload();
+            }
+        }
+    });
+}
+window.onload = inicializarPagina;

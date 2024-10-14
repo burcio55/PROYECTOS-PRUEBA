@@ -1,0 +1,299 @@
+<?
+	ini_set("display_errors", 0);
+	error_reporting(E_ALL | E_STRICT);
+	include('../include/header.php');
+	//include('../include/security_chain.php');
+	include('1_LoadCombos.php');
+	include('1_Validador.php');
+	include('Trazas.class.php');
+	$conn = getConnDB('sire');
+
+	$conn1 = &ADONewConnection($target);
+	$conn1->PConnect($hostname_recibos,$username_recibos,$password_recibos,$db4);
+	$conn1->debug = false;
+
+	$aPageErrors = array();
+	$aDefaultForm = array();
+	$aTabla = array();
+	$conn->debug =false;
+	$conn1->debug =false;
+
+	doAction($conn,$conn1);
+//------------------------------------------------------------------------------------------------------------------------------
+function doAction($conn,$conn1){
+	if (isset($_POST['action']))
+	{
+		switch($_POST['action']){		
+		   case 'cbNo_tiene_changed':
+			 if ($_POST['cbExperiencia']=='0'){
+				 $_POST['cbExperiencia']='0';
+				 $_POST['cbOcupacionG_experiencia']='-1';
+				 $_POST['cbOcupacionE_experiencia']='-1';
+				 $_POST['cbOcupacion3_experiencia']='-1';
+				 $_POST['cbOcupacion4_experiencia']='-1';
+				 $_POST['cbOcupacion5_experiencia']='-1';
+				 $_POST['cbMotivo_retiro']='-1';
+				 $_POST['cbAct_economica1']='-1';
+				 $_POST['cbAct_economica2']='-1';
+				 $_POST['cbAct_economica3']='-1';
+				 $_POST['cbAct_economica4']='-1';
+				 $_POST['patrono']='No aplica';
+				 $_POST['rif']='0';
+				 $_POST['Telf_patrono']='0';
+				 $_POST['f_ingreso']='';
+				 $_POST['f_egreso']='';
+				 $_POST['sueldo']='0';
+				 $_POST['cbRelacion_trabajo']='1';
+				 $_POST['cbPersonal_supervisado']='1';
+				 $_POST['herramienta_trabajo']='No Aplica';
+				 $_POST['observaciones_experiencia']='No Aplica';
+				 $_POST['cbSector_empleo']='-1';				 
+				 }
+				 LoadData($conn,$conn1,true);
+			break;
+			
+			/*case 'btRif':
+			$bValidateSuccess= true;	
+					
+			if ($_POST['rif']!="" and !ereg ("([J?V?G?E]{1}[0-9]{9})", $_POST['rif'])) { 
+			   $GLOBALS['aPageErrors'][]= "- El Rif: debe ser Comenzar con J, V, G, E seguido de Nueve digitos numericos.";
+			   $bValidateSuccess=false;
+			   }
+			   else{ // En la BD minpptrasse dentro de rnee
+					$SQL = "SELECT sdenominacion_comercial, srazon_social, snil 
+						  FROM rnee.rnee_empresa 
+						  WHERE srif ='".$_POST['rif']."'";				
+				    $rs3 = $conn1->Execute($SQL);										
+				    if ($rs3->RecordCount()>0){ 
+					//	$_POST['rif']=$rs3->fields['srif'];
+						$_POST['patrono']=htmlspecialchars($rs3->fields['srazon_social'], ENT_QUOTES);	
+					  }
+				else{				
+					$GLOBALS['aPageErrors'][]= "Esta empresa no se encuentra inscrita en el Registro Nacional de Empresas y Establecimientos.";
+					$bValidateSuccess=false;
+					}
+						}
+					
+			LoadData($conn,$conn1,true);
+			break;
+					
+			case 'cbOcupacion5_experiencia_changed':
+			    LoadData($conn,$conn1,true);
+				LoadOcupacion5_experiencia($conn, $param);
+			break;
+						
+			case 'cbAct_economica4_changed':
+			    LoadData($conn,$conn1,true);
+				LoadAct_economica4($conn);
+			break;			
+			
+			case 'Cancelar': 
+			  unset($_POST['id_po']);
+				unset($_POST['accion']);
+				LoadData($conn,$conn1,false);	
+			break;
+			
+			case 'Agregar': 
+			$bValidateSuccess=true;	
+			if ($_POST['cbExperiencia']=="-1"){
+					$GLOBALS['aPageErrors'][]= "- Tiene Experiencia Laboral: es requerido.";
+					$bValidateSuccess=false;
+					 }
+			if ($_POST['cbExperiencia']=="1"){
+					 
+			if ($_POST['patrono']==""){
+					$GLOBALS['aPageErrors'][]= "- Patrono/empleador: es requerido.";
+					$bValidateSuccess=false;
+					 }
+			if ($_POST['cbAct_economica4']=="-1"){
+					$GLOBALS['aPageErrors'][]= "- La Actividad Económica: es requerida.";
+					$bValidateSuccess=false;
+					 }
+			if ($_POST['cbSector_empleo']=="-1"){
+					$GLOBALS['aPageErrors'][]= "- Sector empleador: es requerido.";
+					$bValidateSuccess=false;
+					 }
+		
+			if ($_POST['f_ingreso']==""){
+					$GLOBALS['aPageErrors'][]= "- Fecha de ingreso: es requerida.";
+					$bValidateSuccess=false;
+					 }			
+					 
+		    if($_POST['f_ingreso']!='' and $_POST['f_egreso']!=''){							 
+				if ($_POST['f_ingreso'] > $_POST['f_egreso']){
+					$GLOBALS['aPageErrors'][]= "- Fecha de ingreso y egreso: son incorrectas.";
+					$bValidateSuccess=false;
+				}
+			 }
+			 
+			if ($_POST['cbOcupacionG_experiencia']=="-1"){  
+					$GLOBALS['aPageErrors'][]= "- Ocupación que ha desempeñado: es requerida.";
+					$bValidateSuccess=false;
+					 }
+			if ($_POST['cbOcupacionE_experiencia']=="-1"){  
+					$GLOBALS['aPageErrors'][]= "- Ocupación General: es requerida.";
+					$bValidateSuccess=false;
+					 }
+			if ($_POST['cbOcupacion3_experiencia']=="-1"){  
+					$GLOBALS['aPageErrors'][]= "- Ocupación Específica: es requerida.";
+					$bValidateSuccess=false;
+					 }
+			if ($_POST['cbOcupacion4_experiencia']=="-1"){  
+					$GLOBALS['aPageErrors'][]= "- Ocupación Sub Específica: es requerida.";
+					$bValidateSuccess=false;
+					 }
+			if ($_POST['cbOcupacion5_experiencia']=="-1"){  
+					$GLOBALS['aPageErrors'][]= "- Ocupación Detalle: es requerida.";
+					$bValidateSuccess=false;
+					 }
+			if ($_POST['cbRelacion_trabajo']=="-1"){  
+					$GLOBALS['aPageErrors'][]= "- Tipo de relación de trabajo: es requerida.";
+					$bValidateSuccess=false;  
+					 }
+					 
+			if ($_POST['sueldo']==""){  
+					$GLOBALS['aPageErrors'][]= "- Sueldo mensual final ó actual (Bsf.): es requerido.";
+					$bValidateSuccess=false;
+					 }  
+			if ($_POST['cbPersonal_supervisado']=="-1"){  
+					$GLOBALS['aPageErrors'][]= "- Personal supervisado: es requerido.";
+					$bValidateSuccess=false;
+					 }
+				}
+				
+			if ($bValidateSuccess){				
+				ProcessForm($conn,$conn1);
+				}
+			
+			LoadData($conn,$conn1,true);	
+			break;*/	
+			
+
+						
+			case 'Continuar': 
+			$bValidateSuccess=true;
+					 
+			 if ($_POST['cbExperiencia']=="0"){
+				  $sql="delete  from persona_experiencia_laboral 
+					where persona_id= '".$_SESSION['id_afiliado']."' ";  
+					$rs= $conn->Execute($sql);					
+					}
+			
+			
+			//sesiones curriculum
+				$nNumSeccion = 6;
+				$sSQL = "SELECT sesiones FROM personas where id = ".$_SESSION['id_afiliado'];
+				$rs = $conn->Execute($sSQL);
+				
+				if ($rs){
+				if ($rs->RecordCount() > 0){
+				$rs->fields['sesiones'][$nNumSeccion-1] = 1;
+				$sSQL = "update personas set sesiones = '".$rs->fields['sesiones']."' where id = ".$_SESSION['id_afiliado'];
+				$rs = $conn->Execute($sSQL);			
+					}
+				}
+				unset($_POST['id_po']);
+				unset($_POST['accion']); 
+				?><script>document.location='1_10agen_trab_participacion.php'</script><?	
+			break;
+		}
+		}		
+	else
+	{
+		LoadData($conn,$conn1,false);
+		}
+}
+//------------------------------------------------------------------------------
+function LoadData($conn,$conn1,$bPostBack)
+{
+	if (count($GLOBALS['aDefaultForm']) == 0)
+	{
+		$aDefaultForm = &$GLOBALS['aDefaultForm'];
+		$_POST['edit']='';
+		$aDefaultForm['rif']='';
+		$aDefaultForm['patrono']='';
+		$_POST['cbAct_economica4']='-1';
+		$_POST['cbAct_economica3']='-1';
+		$_POST['cbAct_economica2']='-1';
+		$_POST['cbAct_economica1']='-1';
+		$aDefaultForm['cbSector_empleo']='-1';
+		$aDefaultForm['Telf_patrono']='';
+		$aDefaultForm['f_ingreso']='';
+		$aDefaultForm['f_egreso']='';
+		$aDefaultForm['cbOcupacion5_experiencia']='-1';
+		$aDefaultForm['cbOcupacion4_experiencia']='-1';
+		$aDefaultForm['cbOcupacion3_experiencia']='-1';
+		$aDefaultForm['cbOcupacionE_experiencia']='-1';
+		$aDefaultForm['cbOcupacionG_experiencia']='-1';
+		$aDefaultForm['cbRelacion_trabajo']='-1';
+		$aDefaultForm['cbMotivo_retiro']='-1';
+		$aDefaultForm['sueldo']='';
+		$aDefaultForm['cbPersonal_supervisado']='-1';
+		$aDefaultForm['herramienta_trabajo']='';
+		$aDefaultForm['observaciones_experiencia']=''; 
+		$aDefaultForm['act_eco']=''; 
+		$aDefaultForm['ocupacion']=''; 
+		$aDefaultForm['cbExperiencia']='-1';
+		unset($_SESSION['aTabla']);
+
+		if (!$bPostBack)
+		{
+			if ($_GET['accion']!='') $_POST['accion']=$_GET['accion'];	
+			if ($_GET['id_po']!='') $_POST['id_po']=$_GET['id_po'];			
+			if ($_POST['accion']=='1')
+			{	
+					$_POST['edit']='1';		
+					$SQL2="SELECT persona_experiencia_laboral.*,personas.sesiones
+							from persona_experiencia_laboral 
+							INNER JOIN personas ON personas.id=persona_experiencia_laboral.persona_id 
+							INNER JOIN motivo_retiro ON motivo_retiro.id=persona_experiencia_laboral.motivo_retiro_id 
+							INNER JOIN sector_empleo ON sector_empleo.id=persona_experiencia_laboral.sector_empleo_id 
+	where persona_id ='".$_SESSION['id_afiliado']."' and cedula='".$_SESSION['ced_afiliado']."' and persona_experiencia_laboral.id ='".$_POST['id_po']."'";
+							$rs = $conn->Execute($SQL2);
+							if ($rs->RecordCount()>0)
+							{
+								$aDefaultForm['rif']=$rs->fields['rif'];
+								$aDefaultForm['patrono']=$rs->fields['patrono'];
+								$aDefaultForm['cbSector_empleo']=$rs->fields['sector_empleo_id'];
+								$aDefaultForm['Telf_patrono']=$rs->fields['telefono'];
+								if($rs->fields['f_ingreso']=='0000-00-00')
+								{
+									$aDefaultForm['f_ingreso']=''; 
+								}
+								else
+								{
+									$aDefaultForm['f_ingreso']=$rs->fields['f_ingreso'];
+								}
+								if($rs->fields['f_egreso']=='0000-00-00')
+								{
+									$aDefaultForm['f_egreso']='';
+							       	}
+								else
+								{
+									$aDefaultForm['f_egreso']=$rs->fields['f_egreso']; 
+								}
+								$aDefaultForm['cbAct_economica4']=$rs->fields['act_economica4'];
+								$aDefaultForm['cbOcupacion5_experiencia']=$rs->fields['ocupacion5'];
+							}
+			}
+		//die('postback es falso');
+		}
+
+	}
+}
+?>
+<script language="javascript" src="../js/jquery.js"></script>
+<script>
+	$(document).ready(function(){
+		elegido="<?php echo $rs->fields['act_economica4']; ?>";
+		combo="Actividad";
+		alert('elegido='+elegido);
+		alert('combo='+combo);
+		$.post("modelo.php", { elegido: elegido, combo:combo ,seleccionado:"<?php echo $rs->fields['act_economica3']; ?>" }, 
+			function(data)
+			{
+				alert(data);
+				$("#cbAct_economica3").html(data);
+			});
+	});
+</script>

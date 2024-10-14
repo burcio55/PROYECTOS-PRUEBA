@@ -1,0 +1,331 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* Animate-Scroll-Products */
+.animado,
+.animado2,
+.animado3,
+.animado4,
+.animado5,
+.animado6{
+	opacity: 0;
+	transition: all .25s;
+}
+/* Tiempo de la Animación */
+.arriba{
+	animation: arriba 1s;
+}
+/* Animación para Arriba */
+@keyframes arriba{
+	0%{
+		transform: translateY(60px);
+	}
+	100%{
+		transform: translateY(0);
+	}
+}
+/* Tiempo de la Animación */
+.abajo{
+	animation: abajo 1s;
+}
+/* Animación para Abajo */
+@keyframes abajo{
+	0%{
+		transform: translateY(-60px);
+	}
+	100%{
+		transform: translateY(0) rotate(22.5deg);
+	}
+}
+/* Tiempo de la Animación */
+.derecha{
+	animation: derecha 1.75s;
+}
+/* Animación para la Derecha */
+@keyframes derecha{
+	0%{
+		transform: translateX(200px);
+	}
+	100%{
+		transform: translateX(0);
+	}
+}
+/* Tiempo de la Animación */
+.izquierda{
+	animation: izquierda 2s;
+}
+/* Animación para la Izquierda */
+@keyframes izquierda{
+	0%{
+		transform: translateX(-160px);
+	}
+	100%{
+		transform: translateX(0);
+	}
+}
+/* Tiempo de la Animación */
+.pequenio{
+	animation: pequenio 2s;
+}
+/* Animación para Hacerse Pequeño */
+@keyframes pequenio{
+	0%{
+		transform: scale(0);
+	}
+	60%{
+		transform: scale(1.2);
+	}
+	100%{
+		transform: scale(1);
+	}
+}
+/* Tiempo de la Animación */
+.grande{
+	animation: grande 2s;
+}
+/* Animación para Hacerse Grande */
+@keyframes grande{
+	0%{
+		transform: scale(2);
+	}
+	60%{
+		transform: scale(.8);
+	}
+	100%{
+		transform: scale(1);
+	}
+}
+.sep{
+    width: 100%;
+    height: 10px;
+}
+.b-radius-30{
+    border-radius: 30px;
+}
+
+    /* Header */
+
+.logo{
+    width: 40%;
+    height: 60px;
+}
+.logo img{
+    width: 100%;
+    max-height: 100%;
+}
+
+    /* Main */
+
+/* Portada */
+.content-portada{
+	width: 100%;
+	height: 550px;
+	background-size: 150%; /* Para que la Imagen sea más Grande que el Contenedor */
+	background-repeat: no-repeat;
+	background-blend-mode: multiply; /* Para que Tenga un poco de Transparencia */
+	background-color: rgba(0,0,0,.3);
+	position: relative;
+	overflow: hidden; /* Para que Todo Aquello que Este Fuera del nav no se vea */
+}
+.content-portada{
+    animation: movimiento 70s infinite linear alternate; /* Propiedad Básica para Efectuar la Animación Recurente */
+    background-image: url(../imagenes/chavez.jpg); /* Es la imagen movible */
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+/* Proceso para Efectuar Toda la Animación de movimiento*/
+@keyframes movimiento{
+	0%{
+		background-position: bottom left;
+	}
+	100%{
+		background-position: top right;
+	}
+}
+@keyframes movimient{
+	0%{
+        background-position: top right;
+	}
+	100%{
+		background-position: bottom left;
+	}
+}
+/* Clase que Elabora la Diferencia de Oscuridad Entre la Imagen y un Cuadro Transparente, Combinando así 2 Colores, el Negro y el Celeste (Efecto Overlay) */
+.capa-gradient{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: -webkit-linear-gradient(left , rgb(0, 0, 0), rgb(11, 142, 185)); /* Proceso que Combina los colores */
+	opacity: .7;
+}
+/*.capa-fondo{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: -webkit-linear-gradient(left , rgb(255, 255, 255), rgb(3, 141, 187));  Proceso que Combina los colores 
+	opacity: 100;
+	background-color: rgb(218, 218, 218);
+}*/
+/* Clase Especializada en Todo el Cuadro de Texto */
+.content-details{
+	width: auto;
+	max-width: 1600px;
+	margin: auto;
+	margin-left: 50px;
+	color: aliceblue;
+	text-shadow: 3px 5px 7px #000; /* Sombra del Texto */
+	position: relative;
+}
+/* Tamaño Maximo de las Letras */
+.details{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+.details p{
+	text-shadow: none;
+}
+/* Separadores */
+.sep1{
+	width: auto;
+	height: 65px;
+}
+.sep2{
+	width: auto;
+	height: 50px;
+}
+    /*Footer*/
+
+/*Sepa*/
+.sepa{
+	width: 2.45%;
+	height: 100%;
+	float: left;
+}
+footer{
+	width: 100%;
+	height: 150px;
+	background-color: rgb(0, 140, 186);
+}
+.pub-1{
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+.pub-1 img{
+	width: auto;
+	max-width: 30%;
+	max-height: 50%;
+}
+.pub-2 h3,
+.pub-3 h3,
+.pub-4 h3{
+	font-size: 20px;
+}
+.pub-2{
+	width: 48%;
+	height: 100%;
+}
+.pub-4{
+	width: 20%;
+	height: 100%;
+	float: right;
+}
+.line{
+	width: 1px;
+	height: 80%;
+	border-radius: 50%;
+	background-color: #fff;
+	float: left;
+	margin: 0 2.45% 0 2.45%;
+	opacity: .6;
+}
+.circle{
+	width: 50px;
+	height: 50px;
+	background-color: rgb(2, 52, 65);
+	border-radius: 50%;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.circle span{
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+}
+.cent{
+	text-align: center;
+	width: 100%;
+}
+.pub-1 a,
+.cent a{
+    color: white;
+    text-decoration: none;
+}
+.pub-1 a:hover,
+.cent a:hover{
+    color: #eee;
+    text-decoration: underline;
+}
+.nbt{
+	text-decoration: none;
+}
+
+	/* los demás cursos */
+
+.p{
+	opacity: .8;
+	text-align: center;
+	font-size: 35px;
+}
+.content-video{
+	width: 300px;
+	position: fixed;
+	overflow: hidden;
+	z-index:100;
+	right: 10px;
+	margin-top: 500px;
+}
+.video{
+	border-radius: 30px;
+	max-width: 100%;
+	height: auto;
+}
+.alerta{
+	width: 35%;
+	height: auto;
+	padding: 0;
+	border-radius: 30px;
+	position: fixed;
+	margin-top: 40vh;
+	margin-left: 30%;
+	z-index: 51;
+	background-color: white;
+    border: solid 1px gray;
+}
+.alerta h4{
+    padding: 7px 20px;
+    border-radius: 30px 30px 0 0;
+    background-color: #DC3831;
+	color: white;
+}
+.alerta p{
+    padding: 5px 20px;
+	text-align: center;
+}
+.alerta input{
+    position: center;
+    margin-bottom: 10px;
+}
+.alerta span{
+	margin-left: 5px;
+}
+.fondo_alerta{
+    width: 100%;
+    height: 100vh;
+    z-index: 50;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+}

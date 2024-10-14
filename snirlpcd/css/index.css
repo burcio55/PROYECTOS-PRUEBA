@@ -1,0 +1,46 @@
+.bienvenida{
+    height: 200px;
+}
+.h1-titulo{
+    color: #312E33;
+    margin:0 0 0 -145px;
+    font-size: 45px;
+}
+.img-titulo{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 83%;
+    border-radius: 150px;
+    margin: -115px 0 0 0;
+}
+@media (max-width: 950px) {
+    .h1-titulo{
+        font-size: 30px;
+    }
+}
+@media (max-width: 770px) {
+    .h1-titulo{
+        font-size: 25px;
+    }
+    .img-titulo{
+        left: 75%;
+        width: 100px;
+        height: 100px;
+        margin: -100px 0 0 0;
+    }
+}
+@media (max-width: 560px) {
+    .bienvenida{
+        height: 150px;
+    }
+    .h1-titulo{
+        font-size: 20px;
+    }
+    .img-titulo{
+        left: 78%;
+        width: 75px;
+        height: 75px;
+        margin: -65px 0 0 0;
+    }
+}
