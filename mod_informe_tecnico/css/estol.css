@@ -1,0 +1,19 @@
+#image-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.image-container {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 200px; /* Adjust as needed */
+    height: auto;
+    margin-bottom: 10px;
+}

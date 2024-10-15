@@ -1,0 +1,312 @@
+/* --- BOTON ACEPTAR --- */
+.buttonj {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 2px 20px;
+    border: 0px solid #a1a1a1;
+    border-radius: 13px;
+    background: #e6e6e6;
+    background: -webkit-gradient(linear, left top, left bottom, from(#e6e6e6), to(#a1a1a1));
+    background: -moz-linear-gradient(top, #e6e6e6, #a1a1a1);
+    background: linear-gradient(to bottom, #e6e6e6, #a1a1a1);
+    font: normal normal bold 12px arial;
+    color: #1060c7;
+    text-decoration: none;
+}
+.buttonj:hover,
+.buttonj:focus {
+    border: 0px solid #e6e6e6;
+    background: #ffffff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#c1c1c1));
+    background: -moz-linear-gradient(top, #ffffff, #c1c1c1);
+    background: linear-gradient(to bottom, #ffffff, #c1c1c1);
+    color: #1060c7;
+    text-decoration: none;
+}
+.buttonj:active {
+    background: #a1a1a1;
+    background: -webkit-gradient(linear, left top, left bottom, from(#a1a1a1), to(#a1a1a1));
+    background: -moz-linear-gradient(top, #a1a1a1, #a1a1a1);
+    background: linear-gradient(to bottom, #a1a1a1, #a1a1a1);
+}
+/* --- BOTON ACEPTAR --- */
+.btn_aceptar:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    line-height: 16px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: -3px;
+    background: url(../imagenes/imagenes_botones/aceptar.png) no-repeat left center transparent;
+    background-size: 100% 100%;
+}
+/* --- BOTON CANCELAR --- */
+.btn_cancelar:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    line-height: 16px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: -3px;
+    background: url(../imagenes/imagenes_botones/cancelar.png) no-repeat left center transparent;
+    background-size: 100% 100%;
+}
+/* --- BOTON AGREGAR --- */
+.btn_agregar:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    line-height: 16px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: -3px;
+    background: url(../imagenes/imagenes_botones/agregar.png) no-repeat left center transparent;
+    background-size: 100% 100%;
+}
+/* --- BOTON CANCELAR --- */
+.btn_eliminar:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    line-height: 16px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: -3px;
+    background: url(../imagenes/imagenes_botones/eliminar.png) no-repeat left center transparent;
+    background-size: 100% 100%;
+}
+/* --- BOTON BUSCAR --- */
+.btn_buscar:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    line-height: 16px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: -3px;
+    background: url(../imagenes/imagenes_botones/buscar.png) no-repeat left center transparent;
+    background-size: 100% 100%;
+}
+/* --- BOTON EDITAR --- */
+.btn_editar:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    line-height: 16px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: -3px;
+    background: url(../imagenes/imagenes_botones/editar.png) no-repeat left center transparent;
+    background-size: 100% 100%;
+}
+/* --- BOTON REGRESAR --- */
+.btn_regresar:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    line-height: 16px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: -3px;
+    background: url(../imagenes/imagenes_botones/regresar.png) no-repeat left center transparent;
+    background-size: 100% 100%;
+}
+/* --- BOTON IMPRIMIR --- */
+.btn_imprimir:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    line-height: 16px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: -3px;
+    background: url(../imagenes/imagenes_botones/imprimir.png) no-repeat left center transparent;
+    background-size: 100% 100%;
+}
+/* --- BOTON REGRESAR --- */
+.btn_recargar:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    line-height: 16px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: -3px;
+    background: url(../imagenes/imagenes_botones/recargar.png) no-repeat left center transparent;
+    background-size: 100% 100%;
+}
+/* --- BOTON ENTRAR --- */
+.btn_entrar:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    line-height: 16px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: -3px;
+    background: url(../imagenes/imagenes_botones/entrar.png) no-repeat left center transparent;
+    background-size: 100% 100%;
+}
+/* --- BOTON GUARDAR --- */
+.btn_guardar:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    line-height: 16px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: -3px;
+    background: url(../imagenes/imagenes_botones/guardar.png) no-repeat left center transparent;
+    background-size: 100% 100%;
+}
+/* --- BOTON LIMPIAR --- */
+.btn_limpiar:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    line-height: 16px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: -3px;
+    background: url(../imagenes/imagenes_botones/limpiar.png) no-repeat left center transparent;
+    background-size: 100% 100%;
+}
+/* --- BOTON ABRIR --- */
+.btn_abrir:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    line-height: 16px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: -3px;
+    background: url(../imagenes/imagenes_botones/abrir.png) no-repeat left center transparent;
+    background-size: 100% 100%;
+}
+/* --- BOTON INFO --- */
+.btn_info:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    line-height: 16px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: -3px;
+    background: url(../imagenes/imagenes_botones/info.png) no-repeat left center transparent;
+    background-size: 100% 100%;
+}
+/* --- BOTON ALERTA --- */
+.btn_alerta:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    line-height: 16px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: -3px;
+    background: url(../imagenes/imagenes_botones/alerta.png) no-repeat left center transparent;
+    background-size: 100% 100%;
+}
+/* --- BOTON BLOQUEADO --- */
+.btn_bloqueado:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    line-height: 16px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: -3px;
+    background: url(../imagenes/imagenes_botones/bloqueado.png) no-repeat left center transparent;
+    background-size: 100% 100%;
+}
+/* --- BOTON DESCARGAR --- */
+.btn_descargar:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    line-height: 16px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: -3px;
+    background: url(../imagenes/imagenes_botones/descargar.png) no-repeat left center transparent;
+    background-size: 100% 100%;
+}
+/* --- BOTON CARGAR --- */
+.btn_cargar:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    line-height: 16px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: -3px;
+    background: url(../imagenes/imagenes_botones/cargar.png) no-repeat left center transparent;
+    background-size: 100% 100%;
+}
+/* --- BOTON CONFIGURACION --- */
+.btn_configuracion:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    line-height: 16px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: -3px;
+    background: url(../imagenes/imagenes_botones/configuracion.png) no-repeat left center transparent;
+    background-size: 100% 100%;
+}
+/* --- BOTON enviar --- */
+.btn_enviar:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    line-height: 16px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: -3px;
+    background: url(../imagenes/imagenes_botones/enviar.png) no-repeat left center transparent;
+    background-size: 100% 100%;
+}

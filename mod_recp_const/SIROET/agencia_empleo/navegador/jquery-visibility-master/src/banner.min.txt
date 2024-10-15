@@ -1,0 +1,1 @@
+/*! jquery-visibility v%VBSION% | MIT license | http://mths.be/-visibility*/

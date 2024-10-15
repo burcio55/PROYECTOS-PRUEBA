@@ -1,0 +1,6 @@
+body {
+    background-image: url(../imagenes/imagen_fondo.jpg); /* Ruta a tu imagen */
+    background-size: cover; /* Ajusta la imagen para que cubra toda la página */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Hace que la imagen se mantenga fija al hacer scroll */
+}

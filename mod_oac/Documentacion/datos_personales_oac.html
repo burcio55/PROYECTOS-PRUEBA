@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Table Data dictionary report - datos_personales_oac</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style type="text/css">
+      body {  font-family: verdana, helvetica, sans-serif; margin: 0px; padding: 0; }
+      h1 { font-weight: bold; font-size: 150%; border-bottom-style: solid; border-bottom-width: 2px; margin-top: 0px; padding-bottom: 0.5ex; color: #eeeeee; overflow: hidden; text-overflow: ellipsis; }
+      h2 { font-size: 130%; padding-bottom: 0.5ex; color: #009ACE; border-bottom-style: solid; border-bottom-width: 2px; }
+      h3 { font-size: 110%; padding-bottom: 0.5ex; color: #000000; }
+      th { text-align: left; background-color: #009ACE; color: #eeeeee; }
+      #ReportHeader { padding: 10px; background-color: #009ACE; color: #eeeeee; border-bottom-style: solid; border-bottom-width: 2px; border-color: #999999; }
+      #ReportHeader th { width: 25%; white-space: nowrap; vertical-align: top; }
+      #ReportHeader td { vertical-align: top; color: #eeeeee; }
+      #ReportNotes { padding: 10px; background-color: #eeeeee; font-size: 80%; border-bottom-style: solid; border-bottom-width: 2px; border-color: #999999; }
+      .ReportSQL { margin-bottom: 10px; padding: 10px; display: block; background-color: #eeeeee; font-family: monospace; }
+      #ReportDetails { margin-left: 10px; margin-right: 10px; margin-bottom: 10px; }
+      #ReportDetails td, th { font-size: 80%; margin-left: 2px; margin-right: 2px; }
+      #ReportDetails th { border-bottom-color: #777777; border-bottom-style: solid; border-bottom-width: 2px; }
+      .ReportDetailsOddDataRow { background-color: #dddddd; }
+      .ReportDetailsEvenDataRow { background-color: #eeeeee; }
+      .ReportTableHeaderCell { background-color: #dddddd; color: #009ACE; vertical-align: top; font-size: 80%; white-space: nowrap; }
+      .ReportTableValueCell { vertical-align: top; font-size: 80%; white-space: nowrap; }
+      .ReportTableInfo { font-size: 80%; font-style: italic; }
+      #ReportFooter { font-weight: bold; font-size: 80%; text-align: right; background-color: #009ACE; color: #eeeeee; margin-top: 10px; padding: 2px; border-bottom-style: solid; border-bottom-width: 2px; border-top-style: solid; border-top-width: 2px; border-color: #999999; }
+      #ReportFooter a { color: #ffffff; text-decoration: none; }
+    </style>
+  </head>
+  <body>
+    <div id="ReportHeader"><h1>Table Data dictionary report - datos_personales_oac</h1><b>Generated: </b>10/06/2021 01:29:17 p.m.<br /><b>Server: </b>10.46.1.91 (10.46.1.91:5432)<br /><b>Database: </b>minpptrassi<br /><b>Schema: </b>oac<br /></div>
+    <div id="ReportDetails">
+      <h2>Columns</h2>
+      <div style="overflow:auto;">
+        <table>
+          <tr>
+            <th class="ReportTableHeaderCell" width="16,6666666666667%">Name</th>
+            <th class="ReportTableHeaderCell" width="16,6666666666667%">Data type</th>
+            <th class="ReportTableHeaderCell" width="16,6666666666667%">Not Null?</th>
+            <th class="ReportTableHeaderCell" width="16,6666666666667%">Primary key?</th>
+            <th class="ReportTableHeaderCell" width="16,6666666666667%">Default</th>
+            <th class="ReportTableHeaderCell" width="16,6666666666667%">Comment</th>
+          </tr>
+          <tr class="ReportDetailsEvenDataRow">
+            <td class="ReportTableValueCell">id_datos_personales</td>
+            <td class="ReportTableValueCell">integer</td>
+            <td class="ReportTableValueCell">Yes</td>
+            <td class="ReportTableValueCell">No</td>
+            <td class="ReportTableValueCell">nextval('oac.datos_personales_oac_id_datos_personales_seq'::regclass)</td>
+            <td class="ReportTableValueCell">numero secuencial de la tabla</td>
+          </tr>
+          <tr class="ReportDetailsOddDataRow">
+            <td class="ReportTableValueCell">numcedula</td>
+            <td class="ReportTableValueCell">integer</td>
+            <td class="ReportTableValueCell">Yes</td>
+            <td class="ReportTableValueCell">No</td>
+            <td class="ReportTableValueCell"> </td>
+            <td class="ReportTableValueCell">numero de cedula</td>
+          </tr>
+          <tr class="ReportDetailsEvenDataRow">
+            <td class="ReportTableValueCell">primer_apellido</td>
+            <td class="ReportTableValueCell">character(40)</td>
+            <td class="ReportTableValueCell">No</td>
+            <td class="ReportTableValueCell">No</td>
+            <td class="ReportTableValueCell"> </td>
+            <td class="ReportTableValueCell">primer apellido de la persona solicitante</td>
+          </tr>
+          <tr class="ReportDetailsOddDataRow">
+            <td class="ReportTableValueCell">segundo_apellido</td>
+            <td class="ReportTableValueCell">character(40)</td>
+            <td class="ReportTableValueCell">No</td>
+            <td class="ReportTableValueCell">No</td>
+            <td class="ReportTableValueCell"> </td>
+            <td class="ReportTableValueCell">segundo apellido de la persona solicitante</td>
+          </tr>
+          <tr class="ReportDetailsEvenDataRow">
+            <td class="ReportTableValueCell">primer_nombre</td>
+            <td class="ReportTableValueCell">character(40)</td>
+            <td class="ReportTableValueCell">No</td>
+            <td class="ReportTableValueCell">No</td>
+            <td class="ReportTableValueCell"> </td>
+            <td class="ReportTableValueCell">primer nombre de la persona solicitante</td>
+          </tr>
+          <tr class="ReportDetailsOddDataRow">
+            <td class="ReportTableValueCell">segundo_nombre</td>
+            <td class="ReportTableValueCell">character(40)</td>
+            <td class="ReportTableValueCell">No</td>
+            <td class="ReportTableValueCell">No</td>
+            <td class="ReportTableValueCell"> </td>
+            <td class="ReportTableValueCell">segundo nombre de la persona solicitante</td>
+          </tr>
+          <tr class="ReportDetailsEvenDataRow">
+            <td class="ReportTableValueCell">fechanac</td>
+            <td class="ReportTableValueCell">character(12)</td>
+            <td class="ReportTableValueCell">No</td>
+            <td class="ReportTableValueCell">No</td>
+            <td class="ReportTableValueCell"> </td>
+            <td class="ReportTableValueCell">fecha de nacimiento de la persona solicitante</td>
+          </tr>
+          <tr class="ReportDetailsOddDataRow">
+            <td class="ReportTableValueCell">nacionalidad</td>
+            <td class="ReportTableValueCell">character(4)</td>
+            <td class="ReportTableValueCell">No</td>
+            <td class="ReportTableValueCell">No</td>
+            <td class="ReportTableValueCell"> </td>
+            <td class="ReportTableValueCell">nacionalidad de la persona solicitante</td>
+          </tr>
+          <tr class="ReportDetailsEvenDataRow">
+            <td class="ReportTableValueCell">sexo</td>
+            <td class="ReportTableValueCell">character(5)</td>
+            <td class="ReportTableValueCell">No</td>
+            <td class="ReportTableValueCell">No</td>
+            <td class="ReportTableValueCell"> </td>
+            <td class="ReportTableValueCell">sexo de la persona solicitante</td>
+          </tr>
+          <tr class="ReportDetailsOddDataRow">
+            <td class="ReportTableValueCell">stlf_hab</td>
+            <td class="ReportTableValueCell">character(15)</td>
+            <td class="ReportTableValueCell">No</td>
+            <td class="ReportTableValueCell">No</td>
+            <td class="ReportTableValueCell"> </td>
+            <td class="ReportTableValueCell">telefono de habitacion de la persona solicitante</td>
+          </tr>
+          <tr class="ReportDetailsEvenDataRow">
+            <td class="ReportTableValueCell">stlf_trab</td>
+            <td class="ReportTableValueCell">character(15)</td>
+            <td class="ReportTableValueCell">No</td>
+            <td class="ReportTableValueCell">No</td>
+            <td class="ReportTableValueCell"> </td>
+            <td class="ReportTableValueCell">telefono del trabajo de la persona solicitante</td>
+          </tr>
+          <tr class="ReportDetailsOddDataRow">
+            <td class="ReportTableValueCell">stlf_cel</td>
+            <td class="ReportTableValueCell">character(15)</td>
+            <td class="ReportTableValueCell">No</td>
+            <td class="ReportTableValueCell">No</td>
+            <td class="ReportTableValueCell"> </td>
+            <td class="ReportTableValueCell">telefono del celular de la persona solicitante</td>
+          </tr>
+          <tr class="ReportDetailsEvenDataRow">
+            <td class="ReportTableValueCell">semail</td>
+            <td class="ReportTableValueCell">character(40)</td>
+            <td class="ReportTableValueCell">No</td>
+            <td class="ReportTableValueCell">No</td>
+            <td class="ReportTableValueCell"> </td>
+            <td class="ReportTableValueCell">email  de la persona solicitante</td>
+          </tr>
+          <tr class="ReportDetailsOddDataRow">
+            <td class="ReportTableValueCell">nentidad</td>
+            <td class="ReportTableValueCell">integer</td>
+            <td class="ReportTableValueCell">No</td>
+            <td class="ReportTableValueCell">No</td>
+            <td class="ReportTableValueCell"> </td>
+            <td class="ReportTableValueCell">codigo de la entidad que contiene la tabla entidad en la bd public de minpptrassi donde vive la persona solicitante</td>
+          </tr>
+          <tr class="ReportDetailsEvenDataRow">
+            <td class="ReportTableValueCell">nmunicipio</td>
+            <td class="ReportTableValueCell">integer</td>
+            <td class="ReportTableValueCell">No</td>
+            <td class="ReportTableValueCell">No</td>
+            <td class="ReportTableValueCell"> </td>
+            <td class="ReportTableValueCell">codigo del municipio que contiene la tabla entidad en la bd public de minpptrassi donde vive la persona solicitante</td>
+          </tr>
+          <tr class="ReportDetailsOddDataRow">
+            <td class="ReportTableValueCell">nparroquia</td>
+            <td class="ReportTableValueCell">integer</td>
+            <td class="ReportTableValueCell">No</td>
+            <td class="ReportTableValueCell">No</td>
+            <td class="ReportTableValueCell"> </td>
+            <td class="ReportTableValueCell">codigo de la parroquia  que contiene la tabla entidad en la bd public de minpptrassi donde vive la persona solicitante</td>
+          </tr>
+          <tr class="ReportDetailsEvenDataRow">
+            <td class="ReportTableValueCell">nenabled</td>
+            <td class="ReportTableValueCell">integer</td>
+            <td class="ReportTableValueCell">Yes</td>
+            <td class="ReportTableValueCell">No</td>
+            <td class="ReportTableValueCell">1</td>
+            <td class="ReportTableValueCell">indica si el registro esta habilitado(1) o inhabilitado(0)</td>
+          </tr>
+          <tr class="ReportDetailsOddDataRow">
+            <td class="ReportTableValueCell">nusuario_creacion</td>
+            <td class="ReportTableValueCell">integer</td>
+            <td class="ReportTableValueCell">Yes</td>
+            <td class="ReportTableValueCell">No</td>
+            <td class="ReportTableValueCell"> </td>
+            <td class="ReportTableValueCell">campo de auditoria</td>
+          </tr>
+          <tr class="ReportDetailsEvenDataRow">
+            <td class="ReportTableValueCell">dfecha_creacion</td>
+            <td class="ReportTableValueCell">character varying</td>
+            <td class="ReportTableValueCell">Yes</td>
+            <td class="ReportTableValueCell">No</td>
+            <td class="ReportTableValueCell"> </td>
+            <td class="ReportTableValueCell">campo de auditoria</td>
+          </tr>
+          <tr class="ReportDetailsOddDataRow">
+            <td class="ReportTableValueCell">nusuario_actualizacion</td>
+            <td class="ReportTableValueCell">integer</td>
+            <td class="ReportTableValueCell">No</td>
+            <td class="ReportTableValueCell">No</td>
+            <td class="ReportTableValueCell"> </td>
+            <td class="ReportTableValueCell">campo de auditoria</td>
+          </tr>
+          <tr class="ReportDetailsEvenDataRow">
+            <td class="ReportTableValueCell">dfecha_actualizacion</td>
+            <td class="ReportTableValueCell">character varying</td>
+            <td class="ReportTableValueCell">No</td>
+            <td class="ReportTableValueCell">No</td>
+            <td class="ReportTableValueCell"> </td>
+            <td class="ReportTableValueCell">campo de auditoria</td>
+          </tr>
+          <tr class="ReportDetailsOddDataRow">
+            <td class="ReportTableValueCell">ntipo_beneficiario</td>
+            <td class="ReportTableValueCell">integer</td>
+            <td class="ReportTableValueCell">No</td>
+            <td class="ReportTableValueCell">No</td>
+            <td class="ReportTableValueCell"> </td>
+            <td class="ReportTableValueCell"> </td>
+          </tr>
+        </table>
+      </div>
+      <br />
+    </div>
+    <div id="ReportFooter">
+Report generated by <a href="http://www.pgadmin.org/">pgAdmin III</a></div>
+    <br />
+  </body>
+</html>
