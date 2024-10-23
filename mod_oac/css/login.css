@@ -1,0 +1,159 @@
+/* CSS Document */
+body{
+font: 12px Arial, sans-serif;
+}
+#separador_superior{
+width: 500px;
+height:46px;
+background-image:  url(../imagenes/encabezado.png);
+background-repeat: no-repeat;	
+}
+#mensaje_ancho{
+margin-left:8px;
+margin-right:8px;
+width: 487px;	
+}
+#alinea_boton{
+margin-left:40px;
+margin-right:40px;
+}
+#separa{
+width: 10px;
+height:20px;
+float: right;
+}
+#contenedor{
+margin:0 auto 0 auto ;
+border-radius: 10px 10px 10px 10px;
+width:500px;padding:5px 0;
+border: 1px solid  #939393;
+background: #FFF;
+height:380px;
+
+}
+#candado{
+	padding-top:20px;
+
+float: left;
+
+}
+#formulario{
+	width:350px;
+	margin-right:auto;
+	margin-left:auto;
+}
+fieldset{
+border: 0px solid #000;
+}
+legend{
+font: bold 140% Arial,sans-serif;
+color: #27518A;
+}
+
+div.medidas,div.check{
+margin: 10px 0 10px 10px;
+}
+div.medidas label{
+float:left;
+width:80px;
+line-height:23px;
+}
+div.medidas input{
+width:120px;
+}
+input#login{
+margin-left: 100px;
+border: 1px solid #27518A;
+background: #ccc url(fondoBoton.jpg) repeat-x;
+}
+.mensaje_informacion, .mensaje_exitoso, .mensaje_exclamacion, .mensaje_error {
+    background-repeat: no-repeat; 
+    background-position:left;
+		padding-left:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;	
+		width:80%;
+		height:16px;
+		text-align:left;
+}
+.mensaje_informacion {
+    color: #00529B;
+}
+.mensaje_exitoso {
+    color: #4F8A10;
+}
+.mensaje_exclamacion {
+    color: #9F6000;
+}
+.mensaje_error {
+    color: #D8000C;
+}
+
+
+.input
+{
+		background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    color: #555555;
+    display: inline-block;
+    font-size: 12px;
+    height: 18px;
+    line-height: 18px;
+    padding: 2px 2px 2px 23px;
+    width: 175px;
+}
+
+.input_em
+{
+		background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    color: #555555;
+    display: inline-block;
+    font-size: 12px;
+    height: 18px;
+    line-height: 18px;
+    padding: 2px 2px 2px 2px;
+    width:152px;
+}
+
+.input_captcha{
+		background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    color: #555555;
+    display: inline-block;
+    font-size: 12px;
+    height: 18px;
+    line-height: 18px;
+    padding: 2px 2px 2px 2px;
+    width:70px;
+}
+
+
+.cbo_em
+{
+		background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    color: #555555;
+    display: inline-block;
+    font-size: 12px;
+    height: 24px;
+    line-height: 24px;
+    padding: 2px 2px 2px 2px;
+    width: 40px;
+}
+.user
+{
+background:url(../imagenes/user2.png) 4px no-repeat ;
+}
+.passcode
+{
+background:url(../imagenes/lock2.png) 4px no-repeat;
+}
+.empresa
+{
+background:url(../imagenes/edificio.png) 4px no-repeat;
+}

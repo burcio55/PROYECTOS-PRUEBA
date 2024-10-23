@@ -1,0 +1,9 @@
+EL CAMPO nombre DE LA TABLA: empresa_instituto_redes_sociales, 
+LE COLOQUE EL VALOR A 30 PARA QUE ME PUDIERA AGREGAR EL NOMBRE DE LA 
+RED SOCIAL SELECCIONADA POR EL USUARIO
+
+QUEDANDO ASI: nombre character varying(30)
+
+
+Y EN EL CAMPO redes_sociales DE LA TABLA empresa_instituto
+LE PUSE EL VALOR A 1 QUEDANDO ASI: redes_sociales character varying(1)

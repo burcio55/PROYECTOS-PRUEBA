@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+	color: black;
+    padding: 0px;
+    background: url("../img/fondo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sep{
+    width: 100%;
+    height: 5%;
+}
+/* Web-Site */
+footer{
+    background-color: #232323;
+    width: 100%;
+    height: 100%;
+    padding: 20px 0 20px 0;
+}
+.sep-header{
+    width: 100%;
+    height: 40px;
+}
+.content-title{
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 20px 35px;
+}
+.sep-header,
+.sep-footer{
+    width: 100%;
+    height: 50px;
+}
+.sep{
+    width: 100%;
+    height: 20px;
+}
+.sep2{
+    width: 100%;
+    height: 10px;
+}
+.content-todo{
+    width: 60%;
+    height: auto;
+    min-height: 600px;
+    margin: auto;
+    background: #fff;
+    border-radius: 30px;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+.container-fluid{
+    background-color: #fff;
+    padding: 0;
+}
+.container-fluid img{
+    width: 100%;
+    height: 100%;
+    margin-left: 3%;
+}
+
+.logo{
+    background-image: url("../img/cintillo.png");
+    background-color: #ffffff;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position-x: 30px;
+    width: 100%;
+    height: 100px;
+    margin-top: -16px;
+}
+
+.menu{
+    width: 136%;
+    height: 60px;
+    background-color: #232323;
+    color: rgb(189, 242, 246);
+    border-radius:25px 25px 0  0 ;
+}
+.header{
+	position: absolute;
+	background: #232323;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	z-index: 99999;
+}
+.navigation{
+    width: 100%;
+    height: 60px;
+    background-color: #232323;
+    color: rgb(189, 242, 246);
+    border-radius:25px 25px 0  0 ;
+}
+.navigation ul{
+    list-style: none;
+	display: flex;
+	justify-content: space-between
+}
+.header .navigation ul li{
+	float: left;
+	position: relative;
+}
+.header .navigation ul li a{
+	font-size: 19px;
+	color: white;
+	text-decoration: none;
+	display: block;
+	transition: all .5s ease;
+	margin: right;
+    display: block;
+	padding: 15px 20px;
+	text-decoration: none;
+}
+.header .navigation ul li a:hover{
+	background-color: #111111;
+}
+.header .navigation ul li ul{
+	position: absolute;
+	width: 200px;
+	background-color: #232323;
+	display: none;
+    list-style: none;
+    z-index: 99999;
+}
+.header .navigation ul li ul li a{
+	text-transform: capitalize;
+    display: block;
+	color: white;
+	text-decoration: none;
+	padding: 15px 15px 15px 20px;
+}
+.header .navigation ul li ul li ul{
+	position: absolute;
+	top: 0;
+	right: 300px;
+}
+.header .navigation ul li ul li{
+	width: 100%;
+}
+.header .navigation ul li:hover > ul{
+	display: initial;
+}
+
+#toggle,
+.header label{
+	display: none;
+	cursor: pointer;
+}

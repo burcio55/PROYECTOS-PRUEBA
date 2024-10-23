@@ -1,0 +1,130 @@
+body, html {
+    height: 100%;
+	width: 100%;
+    background-repeat: no-repeat;
+    /*background: url(/minpptrassi/imagenes/fondo_gris.jpg) no-repeat center center fixed;*/
+    background-size: 100% 100%;
+}
+body
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	height: 100%;
+    margin: 0px;
+    width: 100%;
+	font-size: 14px;
+}
+
+#Cinta
+{
+	background-image:url(../imagenes/cabecera_superior.png);
+	width:1000px;
+	height:54px;
+	margin-top:5px;
+	/*-webkit-box-shadow: 0px 0px 8px 5px #ccc;
+    -moz-box-shadow:    0px 0px 8px 5px #ccc;*/
+	box-shadow:    0px -250px 250px 250px #eaeaea;
+	
+	border-top-left-radius : 10px; 
+	border-top-right-radius : 10px;
+	/*border-bottom-left-radius : 10px;*/
+	/*border-bottom-right-radius : 10px;*/
+}
+
+#Encabezado
+{
+	/*background-color:#FAFAFA;*/
+	background-image:url(../imagenes/sobre.png);
+	width:1000px;
+	height:50px;
+}
+
+#Menu
+{
+	/*background-color: var(--color-principal-menupie);*/
+	background-color: #232323;
+	width:1000px;
+	height:30px;
+	margin-top:0px;
+	/*border-top-left-radius : 10px; 
+	border-top-right-radius : 10px;
+	-webkit-border-top-left-radius : 10px; 
+	-webkit-border-top-right-radius : 10px;*/
+}
+
+#Contenido
+{
+	background-color:#FFFFFF;
+	width:1000px;
+	height:600px;
+	/*-webkit-box-shadow: 0px 7px 7px 5px #ccc;*/
+    box-shadow:    0px 10px 7px 5px #ccc;
+}
+
+#Monitor
+{
+	background-color:#FFFFFF;
+	width:1200px;
+	height:650px;
+    box-shadow:    0px 7px 7px 5px #CCC;
+	border-top-left-radius : 10px;
+	border-top-right-radius : 10px;
+	border-bottom-left-radius : 10px;
+	border-bottom-right-radius : 10px;
+	/*border:solid;
+	border-color:#CC0000;*/
+}
+
+#PieDePagina
+{
+	clear:both;
+	/*background-color:#C93010;*/
+	/*background-color:#cc0000;*/
+	/*background-color: var(--color-principal-menupie);*/
+	background-color: #232323;
+	color:#FFFFFF;
+	width:1000px;
+	height:50px;
+	font-size:12px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	/*-moz-border-radius-bottomleft: 10px;*/
+	border-bottom-left-radius : 10px; 
+	/*-moz-border-radius-bottomright: 10px;*/
+	border-bottom-right-radius : 10px;
+	margin-bottom:5px;
+}
+
+.tabla 
+{
+	border:solid;
+	border-color:#EFEFEF;
+	border-width:thin;	
+}
+.usuario
+{
+	font-size: 11px;
+	color:#C93010;
+ 	font-weight: bold;
+}
+.usuariodescripcion
+{
+	font-size: 11px;
+	color:#000000;
+ 	font-weight: bold;
+}
+.fechahora
+{
+	font-size: 11px;
+	color:#000000;
+ 	font-weight: bold;
+}
+.areatexto1 
+{
+	resize:none;
+	width:100%;
+}
+.areatexto2 
+{
+	resize:none;
+	width:100%;
+}

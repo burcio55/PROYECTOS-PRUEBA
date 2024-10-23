@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="inicio.php" server="10.46.1.91//var/www/agencia_empleo/" local="131152500491716547" remote="131161074930000000" Dst="0" />
+<file name="1agen_formato_constancia_trab.php" server="10.46.1.91//var/www/agencia_empleo/" local="131166329430000000" remote="131166329430000000" Dst="0" />
+<file name="1agen_formato_curriculum.php" server="10.46.1.91//var/www/agencia_empleo/" local="131166162730000000" remote="131166162730000000" Dst="0" />
+<file name="1agen_formato_pdpie.php" server="10.46.1.91//var/www/agencia_empleo/" local="131165346328408888" remote="131165371350000000" Dst="0" />
+<file name="1_0agen_registro_trabajador.php" server="10.46.1.91//var/www/agencia_empleo/" local="131166329430000000" remote="131166329430000000" Dst="0" />
+<file name="1_10agen_trab_participacion.php" server="10.46.1.91//var/www/agencia_empleo/" local="131165388179528590" remote="131165371350000000" Dst="0" />
+<file name="1_11agen_trab_pdpie.php" server="10.46.1.91//var/www/agencia_empleo/" local="131165390423607798" remote="131165371350000000" Dst="0" />
+<file name="1_12agen_trab_foto.php" server="10.46.1.91//var/www/agencia_empleo/" local="131166329430000000" remote="131166329430000000" Dst="0" />
+<file name="1_13agen_consulta_trabajador.php" server="10.46.1.91//var/www/agencia_empleo/" local="131151442448271480" remote="131161074930000000" Dst="0" />
+<file name="1_14agen_trab_formatos.php" server="10.46.1.91//var/www/agencia_empleo/" local="131166329430000000" remote="131166329430000000" Dst="0" />
+<file name="1_2agen_trab_migrante.php" server="10.46.1.91//var/www/agencia_empleo/" local="131166329430000000" remote="131166329430000000" Dst="0" />
+<file name="1_3agen_trab_discapacidad.php" server="10.46.1.91//var/www/agencia_empleo/" local="131166162730000000" remote="131166162730000000" Dst="0" />
+<file name="1_4agen_trab_ocupacion.php" server="10.46.1.91//var/www/agencia_empleo/" local="131166329430000000" remote="131166329430000000" Dst="0" />
+<file name="1_5agen_trab_educacion.php" server="10.46.1.91//var/www/agencia_empleo/" local="131166329430000000" remote="131166329430000000" Dst="0" />
+<file name="1_6agen_trab_capacitacion.php" server="10.46.1.91//var/www/agencia_empleo/" local="131166329430000000" remote="131166329430000000" Dst="0" />
+<file name="1_7agen_trab_conocimientos.php" server="10.46.1.91//var/www/agencia_empleo/" local="131166162730000000" remote="131166162730000000" Dst="0" />
+<file name="1_Edit_Delete.php" server="10.46.1.91//var/www/agencia_empleo/" local="131166329430000000" remote="131166329430000000" Dst="0" />
+<file name="1_LoadCombos.php" server="10.46.1.91//var/www/agencia_empleo/" local="131166162740000000" remote="131166162740000000" Dst="0" />
+<file name="1_Validador.php" server="10.46.1.91//var/www/agencia_empleo/" local="131166329430000000" remote="131166329430000000" Dst="0" />
+<file name="funciones_trabajador.js" server="10.46.1.91//var/www/agencia_empleo/" local="131166162740000000" remote="131166162740000000" Dst="0" />
+<file name="modelo.php" server="10.46.1.91//var/www/agencia_empleo/" local="131166329430000000" remote="131166329430000000" Dst="0" />
+<file name="pdf_constancia_trabajador.php" server="10.46.1.91//var/www/agencia_empleo/" local="131166329430000000" remote="131166329430000000" Dst="0" />
+<file name="Trazas.class.php" server="10.46.1.91//var/www/agencia_empleo/" local="131166329430000000" remote="131166329430000000" Dst="0" />
+<file name="validar_trabajador.js" server="10.46.1.91//var/www/agencia_empleo/" local="131166162740000000" remote="131166162740000000" Dst="0" />
+<file name="pdf_curriculum.php" server="10.46.1.91//var/www/agencia_empleo/" local="131166162740000000" remote="131166162740000000" Dst="0" />
+<file name="9_1rep_interno_funcionario.php" server="10.46.1.91//var/www/agencia_empleo/" local="131166329430000000" remote="131166329430000000" Dst="0" />
+<file name="xls_agen_consulta_trabajador.php" server="10.46.1.91//var/www/agencia_empleo/" local="131166329430000000" remote="131166329430000000" Dst="0" />
+<file name="1_15agen_trab_prevision_social.php" server="10.46.1.91//var/www/agencia_empleo/" local="131166162730000000" remote="131166162730000000" Dst="0" />
+<file name="pdf_certificado_pdpie.php" server="10.46.1.91//var/www/agencia_empleo/" local="131166162740000000" remote="131166162740000000" Dst="0" />
+<file name="1agen_formato_referido_pdpie.php" server="10.46.1.91//var/www/agencia_empleo/" local="131166162730000000" remote="131166162730000000" Dst="0" />
+<file name="pdf_referido_pdpie.php" server="10.46.1.91//var/www/agencia_empleo/" local="131166162740000000" remote="131166162740000000" Dst="0" />
+<file name="vista.php" server="10.46.1.91//var/www/agencia_empleo/" local="131166329430000000" remote="131166329430000000" Dst="0" />
+<file name="1agen_formato_noreferido_pdpie.php" server="10.46.1.91//var/www/agencia_empleo/" local="131166329430000000" remote="131166329430000000" Dst="0" />
+<file name="pdf_noreferido_pdpie.php" server="10.46.1.91//var/www/agencia_empleo/" local="131166329430000000" remote="131166329430000000" Dst="0" />
+</dwsync>

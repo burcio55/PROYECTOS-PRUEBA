@@ -1,0 +1,122 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-size: 16px;
+}
+
+.logo{
+    background-image: url("../img/cintillo.png");
+    background-color: #ffffff;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position-x: 30px;
+    width: 100%;
+    height: 70px;
+    margin-top: 0px;
+    box-shadow: 0px -250px 250px 250px #f3f3f3;
+}
+
+body{
+	color: black;
+    padding: 0px;
+    background: url("../img/fondo.jpg"); /* aqui va un fondo de imagen, solo que se deja asi por los momentos */ 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    height: 40%;
+    width: 48%;
+    background-color: #0d6efd;
+    border-radius: 30px;
+    padding-top: 28px;
+    margin-top: 20px;
+} 
+
+.container2{
+    width: 100.94%;
+    border-radius: 30px;
+    padding: 10px;
+    position:relative;
+    background-color: white; 
+    margin-left: -12px;
+    border: solid 1px gray;
+    margin-top: -10px;
+    box-shadow: 2px 2px 5px;
+}
+
+.salvatore{
+    height: 70px;
+    margin-left: 37%;
+}
+
+h1{
+    color: #0d6efd;
+    text-align: center;
+}
+h2{
+    color: #0d6efd;
+    text-align: left; 
+}
+
+.icon{
+    max-height: 20px;
+    height: 46px;
+    margin-left: -1px;
+}
+
+.input-group-text{
+    border-radius: 30px;
+}
+
+.form-select{
+    border-radius: 30px;
+}
+
+button{
+    margin: auto;
+}
+
+.form-control{
+    border-radius: 30px;
+}
+
+.sep{
+    width: 100%;
+    height: 20px;
+}
+
+@media (max-width: 780px){
+    .container{
+        width: 95%;
+    }
+    .container2{
+        width: 103%;
+        margin-top: -15px;
+    }
+    .salvatore{
+        margin-left: 36%;
+    }
+    button{
+        margin-left: 40%;
+    }
+    body{
+        padding: 0px;
+    }
+    .logo{
+        height: 40px;
+    }
+    button{
+        padding: 5px;
+    }
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    margin-top: 15%;
+    background-color: rgb(0, 140, 186);
+    color: white;
+}

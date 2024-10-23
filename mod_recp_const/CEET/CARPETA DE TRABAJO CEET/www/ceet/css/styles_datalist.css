@@ -1,0 +1,31 @@
+.dataListColumn {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #000000;
+	background-color: #E2E2E2;
+	/*background-color: #ff0000;*/
+}
+.dataListColumn2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #000000;
+	background-color: #F7F7F7;
+}
+
+.data_Table1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	background-color: #E2E2E2;
+	/*background-color: #ff0000;*/
+}
+.data_Table2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	background-color: #F7F7F7;
+}

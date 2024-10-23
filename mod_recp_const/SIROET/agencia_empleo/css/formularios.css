@@ -1,0 +1,347 @@
+/* GENERALES */
+/* input:focus */ 
+.links-menu-izq {
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 9px; COLOR: #1060C8; 
+	FONT-STYLE: normal; 
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; 
+	TEXT-DECORATION: none
+}
+.links-menu-izq:hover {
+	COLOR: #000;
+}
+.subtititulos {background-color: #E5E5E5;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 15px;
+}
+table {
+border-spacing:0px;
+
+}
+
+
+
+.mensaje_error{
+	color:red;	
+}
+
+.mensaje_bien{
+	color:#1CC140;	
+}
+
+.mensaje_alert{
+	color:red;	
+}
+
+.button{
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight:300;
+border: 1px solid  #999999;
+background: #e4e4e2;
+color:   #1060C8;
+cursor:pointer;
+border-radius: 3px 3px 3px 3px;
+}
+
+input[type=file]{
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+border: 1px solid  #999999;
+background: #e4e4e2;
+color:   #1060C8;
+}
+
+input[type=text]:focus,input[type=password]:focus,select:focus,textarea:focus{
+border: thin solid #999999;		
+}	
+input[type=text],input[type=password],select,textarea{
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-style: normal;
+line-height: normal;
+color: #000000;
+border:  solid 1px   #e4e4e2; 
+font-weight:  normal;
+font-variant:  normal;	
+}	
+input[type=radio]{
+	cursor:pointer;
+}
+
+span.negrita{
+color:#000;
+font-weight:bold;
+}
+span.azul_negrita{
+color:#1060C8;
+font-weight:bold;
+}
+span{
+color: #FDFEFE;
+/*background-color: #051E38;*/	
+}
+span.color_negro{
+color:#000;	
+}
+span.info{
+	color: #999;
+	
+}
+.clr{
+padding:0;
+margin:0;
+clear:both;
+}
+a{
+cursor:pointer;
+}
+/*FIN GENERALES */
+
+/* PARA EL FORMULARIO*/
+div .separar{
+width:100%;
+margin-top:50px;
+margin-left: 5px;
+margin-right:5px;
+}
+table.formulario{
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+color:  #000;
+font-size: 12px;
+border-spacing: 2px;
+vertical-align:middle;
+}
+table.formulario td{
+padding-top:5px;	
+padding-bottom:5px;	
+}
+table.formulario th{
+color:   #1060C8;
+}
+.separacion_titulo{
+padding-top:20px;
+}
+.separacion_5{
+padding-top:5px;
+}
+.separacion_10{
+padding-top:10px;
+}
+.separacion_bottom_10{
+padding-bottom:10px;
+}
+.separacion_20{
+padding-top:20px;
+}
+table.formulario th.titulo{
+padding-top:10px;	
+padding-bottom:5px;
+
+/*text-decoration: underline;*/
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+/*font-weight:  bold;*/
+font-size: 12px;
+color:    #1060C8;
+text-align:center; 
+}
+table.formulario th.sub_titulo{
+/*background: #06F;*/
+background-color:   #D0E0F4;
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+/*font-weight:  bold;*/
+font-size: 12px;
+color:   #1060C8;
+padding: 4px;
+}
+table.formulario th.sub_titulo_2{
+/*background: #06F;*/
+background-color:     #999;
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-weight:  bold;
+font-size: 12px;
+color:   white;
+padding: 2px;
+text-align:left; 
+}
+
+/*PARA TOOLTIP*/
+#tooltip {
+/* OPACIDAD ESTO PARA QUE FUNCIOEN EN VARIOS NAVEGADORES*/
+filter: alpha(opacity=75);
+-moz-opacity: .75;
+opacity: .75; 
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+background-color: #FAE2C0 ; 
+border: 1px solid #000;
+color:  #000;
+padding-top: 4px;
+padding-bottom: 4px;
+padding-left: 10px;
+padding-right: 10px;
+-moz-border-radius-bottomleft: 7px;
+-moz-border-radius-bottomright: 7px;
+-moz-border-radius-topleft: 0;
+-moz-border-radius-topright: 7px;
+max-width: 20em;
+/*line-height: 12px;*/
+}
+#tooltip h3 {
+font-size: 11px;
+margin: 0;
+padding: 0 3px;
+text-align: left !important;
+}
+#tooltip p {
+font-size: 12px;
+margin: 5px 0 0 5px;
+text-align: left;
+color:  #000;
+}
+/* FIN PARA TOOLTIP*/
+
+#formulario  table.tabla_mostrar {
+width: 100%;
+border-spacing: 0px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+}
+
+#formulario  table.tabla_mostrar th {
+background-color:   #D0E0F4;
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size: 12px;
+color:   #1060C8;
+padding: 4px;
+text-align:left; 
+}
+
+#formulario  table.tabla_mostrar td {
+background-color: #F7F7F7;
+padding: 2px;
+text-align:left;  
+}
+
+/* NAVEGACION */
+.identificacion_seccion {
+FONT-WEIGHT: bold; 
+FONT-SIZE: 9px; 
+COLOR:#666666;
+FONT-STYLE: normal; 
+FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; 
+TEXT-DECORATION: none
+}
+
+table.formulario td.seccion_inactiva:hover{
+background-color: #CCCCCC;
+border: 1px dotted #1060C8;
+}
+table.formulario td.seccion_inactiva a:hover{
+FONT-STYLE: normal;
+font-family: Arial, Helvetica, sans-serif;
+COLOR: #1060C8;
+font-size: 12px;
+font-weight: bold;
+TEXT-DECORATION: none;
+}
+
+
+table.formulario td.seccion_inactiva{
+background-color: #D0E0F4;
+border: 1px dotted #1060C8;
+}
+table.formulario td.seccion_inactiva a{ 
+font-weight: bold;
+FONT-SIZE: 10px;
+COLOR: #666666;
+FONT-STYLE: normal;
+font-family: Arial, Helvetica, sans-serif;
+TEXT-DECORATION: none;
+}
+/* FIN NAVEGACION*/
+
+
+
+
+
+/*ESTILO DEL AGREGAR*/
+table.listado{	
+	background-color:#FBEAA2;
+	border-spacing: 0px;
+	font-family: verdana, monospace;
+	font-size:12px;
+	margin-top:40px;
+	
+}
+
+
+table.listado tr:hover	{
+	background-color: #B5B5B5;
+}
+
+table.listado th{
+	background-color: #D0E0F4;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+table.listado thead tr th.btnagregar{
+	background-color: #FCFCFC;
+	padding-bottom:5px;
+	padding-top:5px;
+}
+table.listado td.titulo{
+text-align:center;
+font-weight:bold;
+color:   #1060C8;
+}
+
+table.listado td.titulo_{
+text-align:center;
+color:#1060C8;
+font-weight:bold;
+font-size:16px;
+padding:20px 20px 20px 20px;
+background-color:#FFFFFF;
+}
+
+.titulo_{
+text-align:center;
+color:#1060C8;
+font-weight:bold;
+font-size:16px;
+padding:20px 20px 20px 20px;
+background-color:#FFFFFF;
+}
+
+
+/*FIN ESTULO AGREGAR*/
+
+.usuario{
+font-family: "Times New Roman", Times, serif;
+font-size: xx-small;
+color: #333333;
+font-size: 12px;
+border-spacing: 2px;
+vertical-align:middle;
+text-transform:uppercase;
+}
+
+.alerta_roja{
+	border:solid 1px;
+	border-color:red;
+	color:red;
+}
+
+.link_nomina{
+		text-align:center;
+		font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+		font-weight: bold;
+    color:   #1060C8;
+		text-decoration: none;
+	}
+	
+	
+	

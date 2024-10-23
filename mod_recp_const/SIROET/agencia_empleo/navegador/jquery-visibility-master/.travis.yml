@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - stable
+before_install:
+  - "npm install -g npm@latest"
+script: node ./node_modules/gulp/bin/gulp
+notifications:
+  email: false
+deploy:
+  provider: npm
+  email: e-mail@janpaepke.de
+  api_key:
+    secure: CFA0ggHcMPvFAkvzMxuSqoJzd/aOagZnCWolziQsiEzNSxS2dQKGWawd4m6LwwYPDs0tDMjoZKbjFfoU7MIrrgQDf1WUzLn1hsIbLEuYqKHw7x8LNeNMDedUWlC7AyQeQuieSjFHvi6LelflyO7DKd+sxPeN2smtIUOeKNBup/M=
+#  on:
+#    tags: true
